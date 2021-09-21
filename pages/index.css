@@ -1,3 +1,5 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/body/body.css);
+/* блок интро */
+@import url(../blocks/intro/intro.css);

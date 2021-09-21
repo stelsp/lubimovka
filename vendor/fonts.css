@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'FormularLight';
+	src: url('./fonts/FormularLight/formular-light.woff2') format('woff2'),
+	     url('./fonts/FormularLight/formular-light.woff') format('woff');
+	font-weight: 300;
+}
+
+@font-face {
+  font-family: 'NeueMachinaRegular';
+  src: url('./fonts/NeueMachinaRegular/PPNeueMachina-Regular.woff2') format('woff2');
+  src: url('./fonts/NeueMachinaRegular/PPNeueMachina-Regular.woff') format('woff');
+  font-weight: 400;
+}

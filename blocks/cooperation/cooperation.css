@@ -1,6 +1,10 @@
 .cooperation {
   position: relative;
-  padding: 76px 24px 100px 55px;
+  padding: 76px 0 100px 0;
+  box-sizing: border-box;
+
+  margin: 0 auto;
+  max-width: 335px;
 }
 
 .cooperation__asterisk {
@@ -14,6 +18,7 @@
 
 .cooperation__title {
   margin: 0;
+
 
   font: var(--headline-6);
   letter-spacing: -0.01em;
@@ -29,10 +34,12 @@
   text-align: left;
 }
 
-.cooperation__text:last-child {
-  padding-bottom: 0;
-}
-
 .cooperation__link {
   color: var(--color-carbonic);
+}
+
+@media screen and (min-width: 1000px) {
+  .cooperation {
+    max-width: 516px;
+  }
 }

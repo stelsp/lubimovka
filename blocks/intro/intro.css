@@ -7,10 +7,9 @@
 }
 
 .intro__image {
-  /* grid-area: image; */
   max-width: 100%;
   min-width: 320px;
-  min-height: 92vw;
+  min-height: 414px;
   object-fit: cover;
   object-position: right;
   margin: 36px 0 0 0;

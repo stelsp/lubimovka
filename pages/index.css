@@ -2,19 +2,18 @@
 @import url(../vendor/fonts.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/content/content.css);
-/* блок интро */
-@import url(../blocks/intro/intro.css);
-/* блок persons */
-@import url(../blocks/persons/persons.css);
-@import url(../blocks/persons/header/persons__header.css);
-@import url(../blocks/persons/list/persons__list.css);
-@import url(../blocks/persons/item/persons__item.css);
-@import url(../blocks/persons/name/persons__name.css);
-@import url(../blocks/persons/image/persons__image.css);
-@import url(../blocks/persons/caption/persons__caption.css);
-/* блок о проекте */
-@import url(../blocks/about/about.css);
-/* блок cooperation */
-@import url(../blocks/cooperation/cooperation.css);
 /* кнопка назад */
 @import url(../blocks/button/button.css);
+
+/* блок интро */
+@import url(../blocks/intro/intro.css);
+/* блок about */
+@import url(../blocks/about/about.css);
+/* блок с видео */
+@import url(../blocks/videos/videos.css);
+/* блок persons */
+@import url(../blocks/persons/persons.css);
+/* блок cooperation */
+@import url(../blocks/cooperation/cooperation.css);
+
+

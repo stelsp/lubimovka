@@ -1,5 +1,6 @@
 .cooperation {
   position: relative;
+  padding: 76px 24px 100px 55px;
 }
 
 .cooperation__asterisk {
@@ -13,7 +14,7 @@
 
 .cooperation__heading {
   margin: 0;
-  padding: 76px 24px 16px 55px;
+  padding-bottom: 16px;
 
   font: var(--heading-6);
   letter-spacing: -0.01em;
@@ -22,7 +23,7 @@
 
 .cooperation__paragraph {
   margin: 0;
-  padding: 0 24px 25px 57px;
+  padding-bottom: 25px;
 
   font: var(--heading-7);
   letter-spacing: -0.01em;
@@ -30,5 +31,9 @@
 }
 
 .cooperation__paragraph:last-child {
-  padding-bottom: 100px;
+  padding-bottom: 0;
+}
+
+.cooperation__link {
+  color: var(--carbonic);
 }

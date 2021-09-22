@@ -11,9 +11,12 @@
 @import url(../blocks/about/about.css);
 /* блок с видео */
 @import url(../blocks/videos/videos.css);
+/* блок plays */
+@import url(../blocks/plays/plays.css);
 /* блок persons */
 @import url(../blocks/persons/persons.css);
 /* блок cooperation */
 @import url(../blocks/cooperation/cooperation.css);
+
 
 

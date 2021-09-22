@@ -6,3 +6,5 @@
 @import url(../blocks/intro/intro.css);
 /* блок о проекте */
 @import url(../blocks/about/about.css);
+/* блок с видео */
+@import url(../blocks/videos/videos.css);

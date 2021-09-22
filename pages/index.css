@@ -16,3 +16,5 @@
 @import url(../blocks/about/about.css);
 /* блок cooperation */
 @import url(../blocks/cooperation/cooperation.css);
+/* кнопка назад */
+@import url(../blocks/button/button.css);

@@ -18,7 +18,12 @@
   --body-text-small: 300 16px/22px FormularLight;
   --caption-text: 300 14px/17px FormularLight;
   --letter-spacing: -0.01 em;
+  /* кнопка */
+  --btn-title: 300 16px/14px FormularLight;
+  color: var(--color-carbonic);
   background: var(--color-main);
   font-family: "FormularLight", sans-serif;
   letter-spacing: var(--letter-spacing);
+  max-width: 1440px;
+  margin: 0 auto;
 }

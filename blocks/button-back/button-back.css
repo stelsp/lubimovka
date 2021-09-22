@@ -1,0 +1,11 @@
+.button-back {
+  width: 115px;
+  height: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+
+  .button-back {
+    padding: 33px 0 0 30px;
+  }
+}

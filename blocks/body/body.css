@@ -1,0 +1,24 @@
+.body {
+  /* ЦВЕТА */
+  --color-carbonic: #242424;
+  --color-snow-white: #fff;
+  --color-main: #ecebe8;
+  --color-accent: #b7c09d;
+  /* ЗАГОЛОВКИ */
+  --headline-1: 400 72px/70px NeueMachinaRegular;
+  --headline-2: 400 64px/60px NeueMachinaRegular;
+  --headline-3: 400 56px/56px NeueMachinaRegular;
+  --headline-4: 400 40px/40px NeueMachinaRegular;
+  --headline-5: 400 36px/38px NeueMachinaRegular;
+  --headline-6: 400 28px/32px NeueMachinaRegular;
+  --headline-7: 400 20px/24px NeueMachinaRegular;
+  /* ТЕКСТ */
+  --body-text: 300 20px/28px FormularLight;
+  --body-text-medium: 300 18px/23px FormularLight;
+  --body-text-small: 300 16px/22px FormularLight;
+  --caption-text: 300 14px/17px FormularLight;
+  --letter-spacing: -0.01 em;
+  background: var(--color-main);
+  font-family: "FormularLight", sans-serif;
+  letter-spacing: var(--letter-spacing);
+}

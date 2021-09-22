@@ -1,12 +1,17 @@
 .persons__list{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   overflow-x: auto;
   margin: 24px 0 0 0;
 }
 
-@media screen and (min-width: 1000px ){
+@media screen and (min-width: 1000px){
   .persons__list{
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }

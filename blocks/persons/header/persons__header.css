@@ -1,7 +1,5 @@
 .persons__header{
-  font-family: NeueMachinaRegular;
-  font-size: 28px;
-  line-height: 32px;
+  font: var(--heading-6);
   width: 358px;
   letter-spacing: -0.01em;
   margin: 0;

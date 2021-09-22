@@ -1,11 +1,9 @@
 .cooperation {
   position: relative;
   padding: 76px 0 100px 0;
-  /* box-sizing: border-box; */
-
   margin: 0 auto;
+
   max-width: 335px;
-  box-sizing: border-box;
 }
 
 .cooperation__asterisk {

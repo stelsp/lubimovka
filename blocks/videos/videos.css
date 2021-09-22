@@ -1,0 +1,38 @@
+.videos {
+  padding: 57px 0 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+}
+
+.videos_indent {
+  padding-left: 24px;
+}
+
+.videos__title {
+  margin: 0 0 32px;
+  font: var(--heading-6);
+}
+
+.videos__text {
+  margin: 32px 0 0;
+  max-width: 716px;
+  font: var(--body-text);
+}
+
+.videos__iframe {
+  width: 366px;
+  height: 206px;
+  border: none;
+}
+
+.videos__iframes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 30px;
+  overflow-x: auto;
+}
+
+

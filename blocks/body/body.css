@@ -1,0 +1,12 @@
+.body{
+  background-color: #ECEBE8;
+  color: #242424;
+}
+.body__text__small{
+  font-family: FormularLight;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  margin: 8px 0 0 35px;
+  width: 180px;
+}

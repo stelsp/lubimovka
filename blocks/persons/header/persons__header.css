@@ -1,0 +1,14 @@
+.persons__header{
+  font-family: NeueMachinaRegular;
+  font-size: 28px;
+  line-height: 32px;
+  width: 358px;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+@media screen and (min-width: 1000px ){
+  .persons__header{
+    margin-left: 362px;
+  }
+}

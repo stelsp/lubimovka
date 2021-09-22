@@ -1,0 +1,12 @@
+.persons__list{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin: 24px 0 0 0;
+}
+
+@media screen and (min-width: 1000px ){
+  .persons__list{
+    justify-content: center;
+  }
+}

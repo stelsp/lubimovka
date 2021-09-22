@@ -19,4 +19,5 @@
 @import url(../blocks/persons/persons.css);
 /* блок cooperation */
 @import url(../blocks/cooperation/cooperation.css);
-
+/* заголовок блоков */
+@import url(../blocks/heading-for-blocks/heading-for-blocks.css);

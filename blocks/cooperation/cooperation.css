@@ -12,27 +12,27 @@
   left: 25px;
 }
 
-.cooperation__heading {
+.cooperation__title {
   margin: 0;
 
-  font: var(--heading-6);
+  font: var(--headline-6);
   letter-spacing: -0.01em;
   text-align: left;
 }
 
-.cooperation__paragraph {
+.cooperation__text {
   margin: 0;
   padding-top: 16px;
 
-  font: var(--heading-7);
+  font: var(--headline-7);
   letter-spacing: -0.01em;
   text-align: left;
 }
 
-.cooperation__paragraph:last-child {
+.cooperation__text:last-child {
   padding-bottom: 0;
 }
 
 .cooperation__link {
-  color: var(--carbonic);
+  color: var(--color-carbonic);
 }

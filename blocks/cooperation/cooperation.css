@@ -5,6 +5,7 @@
 
   margin: 0 auto;
   max-width: 335px;
+  box-sizing: border-box;
 }
 
 .cooperation__asterisk {
@@ -18,6 +19,7 @@
 
 .cooperation__title {
   margin: 0;
+  padding: 0;
 
   font: var(--headline-6);
   letter-spacing: -0.01em;
@@ -26,6 +28,8 @@
 
 .cooperation__text {
   margin: 0;
+  padding: 0;
+
   padding-top: 16px;
 
   font: var(--headline-7);
@@ -48,13 +52,16 @@
     margin: 0;
     padding: 100px 232px 169px 692px;
   }
+
   .cooperation__title {
-    font: var(--headline-6);
+    font: var(--headline-5);
   }
+
   .cooperation__text {
     padding-left: 58px;
     padding-top: 33px;
   }
+
   .cooperation__asterisk {
   top: 74px;
   left: 665px;

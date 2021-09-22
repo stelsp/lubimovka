@@ -1,0 +1,25 @@
+.gallery {
+  padding-top: 145px;
+}
+
+.gallery__items {
+  display: grid;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 2px 3px;
+  grid-template-columns: repeat(auto-fill, minmax(206px, max-content));
+}
+
+.gallery__image {
+  min-width: 206px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1040px) {
+
+  .gallery__items {
+    grid-template-columns: repeat(auto-fill, minmax(330px, max-content));
+  }
+
+}

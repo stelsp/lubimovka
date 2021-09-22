@@ -1,47 +1,32 @@
-body {
-  width: 414px;
-  box-sizing: border-box;
-}
-
 .cooperation {
-  background-color: #E5E5E5;
-  color: #242424;
   position: relative;
-
 }
 
 .cooperation__asterisk {
+  display: block;
+  position: absolute;
+  width: 25px;
+  left: 25px;
+  top: 50px;
 
 }
 
 .cooperation__heading {
   margin: 0;
-  padding: 0;
+  padding: 76px 24px 16px 55px;
 
-  font-family: 'NeueMachinaRegular';
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
+  font: var(--heading-6);
   letter-spacing: -0.01em;
   text-align: left;
-
-  padding: 76px 24px 16px 55px;
 }
 
 .cooperation__paragraph {
   margin: 0;
-  padding: 0;
+  padding: 0 24px 25px 57px;
 
-  font-family: 'NeueMachinaRegular';
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  font: var(--heading-7);
   letter-spacing: -0.01em;
   text-align: left;
-
-  padding: 0 24px 25px 57px;
 }
 
 .cooperation__paragraph:last-child {

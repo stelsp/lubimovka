@@ -20,7 +20,7 @@
   text-align: left;
 }
 
-.cooperation__paragraph {
+.cooperation__text {
   margin: 0;
   padding-top: 16px;
 
@@ -29,7 +29,7 @@
   text-align: left;
 }
 
-.cooperation__paragraph:last-child {
+.cooperation__text:last-child {
   padding-bottom: 0;
 }
 

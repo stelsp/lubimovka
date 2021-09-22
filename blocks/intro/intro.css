@@ -8,8 +8,7 @@
 
 .intro__image {
   max-width: 100%;
-  min-width: 320px;
-  min-height: 414px;
+  min-height: 320px;
   object-fit: cover;
   object-position: right;
   margin: 36px 0 0 0;
@@ -28,6 +27,10 @@
 }
 
 @media screen and (min-width: 413px) {
+
+  .intro__image {
+    min-height: 450px;
+  }
 
   .intro__title {
     width: 323px;

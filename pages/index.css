@@ -14,3 +14,5 @@
 @import url(../blocks/persons/caption/persons__caption.css);
 /* блок о проекте */
 @import url(../blocks/about/about.css);
+/* блок cooperation */
+@import url(../blocks/cooperation/cooperation.css);

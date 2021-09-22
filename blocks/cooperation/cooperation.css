@@ -1,0 +1,38 @@
+.cooperation {
+  position: relative;
+  padding: 76px 24px 100px 55px;
+}
+
+.cooperation__asterisk {
+  display: block;
+  position: absolute;
+  width: 25px;
+
+  top: 50px;
+  left: 25px;
+}
+
+.cooperation__heading {
+  margin: 0;
+
+  font: var(--heading-6);
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.cooperation__paragraph {
+  margin: 0;
+  padding-top: 16px;
+
+  font: var(--heading-7);
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.cooperation__paragraph:last-child {
+  padding-bottom: 0;
+}
+
+.cooperation__link {
+  color: var(--carbonic);
+}

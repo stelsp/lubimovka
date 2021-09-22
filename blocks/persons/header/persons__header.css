@@ -1,7 +1,7 @@
 .persons__header{
-  font: var(--heading-6);
+  font: var(--headline-6);
+  letter-spacing: var(--letter-spacing);
   width: 358px;
-  letter-spacing: -0.01em;
   margin: 0;
 }
 

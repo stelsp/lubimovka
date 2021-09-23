@@ -21,6 +21,8 @@
 @import url(../blocks/gallery/__items/gallery__items.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 @import url(../blocks/gallery/__title/gallery__title.css);
+/* блок performances */
+@import url(../blocks/performances/performances.css);
 /* блок plays */
 @import url(../blocks/plays/plays.css);
 /* блок persons */

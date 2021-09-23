@@ -1,13 +1,12 @@
 .intro__title {
   margin: 58px 0 0 24px;
-  font: var(--headline-4);
-  width: 280px;
+  max-width: 280px;
 }
 
 @media screen and (min-width: 413px) {
 
   .intro__title {
-    width: 323px;
+    max-width: 323px;
   }
 
 }
@@ -16,7 +15,7 @@
 
   .intro__title {
     margin: 10px 0 0 0;
-    width: 300px;
+    max-width: 300px;
   }
 
 }
@@ -24,8 +23,7 @@
 @media screen and (min-width: 1440px) {
 
   .intro__title {
-    font: var(--headline-1);
-    width: 450px;
+    max-width: 450px;
   }
 
 }

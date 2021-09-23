@@ -3,7 +3,10 @@
 @import url(../blocks/body/body.css);
 /* кнопка назад */
 @import url(../blocks/button/button.css);
-
+/* блок с заголовками для страниц */
+@import url(../blocks/heading-for-pages/heading-for-pages.css);
+/* заголовок блоков */
+@import url(../blocks/heading-for-blocks/heading-for-blocks.css);
 /* блок интро */
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
@@ -15,6 +18,9 @@
 @import url(../blocks/videos/videos.css);
 /* галерея */
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__items/gallery__items.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+@import url(../blocks/gallery/__title/gallery__title.css);
 /* блок plays */
 @import url(../blocks/plays/plays.css);
 /* блок persons */
@@ -27,5 +33,4 @@
 @import url(../blocks/persons/__name/persons__name.css);
 /* блок cooperation */
 @import url(../blocks/cooperation/cooperation.css);
-/* заголовок блоков */
-@import url(../blocks/heading-for-blocks/heading-for-blocks.css);
+

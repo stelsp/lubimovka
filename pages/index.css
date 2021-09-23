@@ -1,12 +1,24 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/body/body.css);
-@import url(../blocks/content/content.css);
+/* кнопка назад */
+@import url(../blocks/button/button.css);
+
 /* блок интро */
 @import url(../blocks/intro/intro.css);
+/* блок about */
+@import url(../blocks/about/about.css);
+/* блок с видео */
+@import url(../blocks/videos/videos.css);
+/* галерея */
+@import url(../blocks/gallery/gallery.css);
+/* блок plays */
+@import url(../blocks/plays/plays.css);
 /* блок persons */
 @import url(../blocks/persons/persons.css);
 /* блок о проекте */
 @import url(../blocks/about/about.css);
 /* блок cooperation */
 @import url(../blocks/cooperation/cooperation.css);
+/* заголовок блоков */
+@import url(../blocks/heading-for-blocks/heading-for-blocks.css);

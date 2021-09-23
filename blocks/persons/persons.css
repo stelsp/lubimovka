@@ -60,6 +60,7 @@
             justify-content: center;
   }
   .persons__header{
+    font: var(--headline-4);
     margin-left: 362px;
   }
 }

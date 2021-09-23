@@ -15,7 +15,7 @@
 
 .videos__text {
   margin: 32px 0 0;
-  width: 716px;
+  max-width: 716px;
   font: var(--body-text);
   padding: 0 24px;
 }

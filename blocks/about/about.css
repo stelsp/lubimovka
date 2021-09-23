@@ -9,7 +9,14 @@
 }
 
 .about__text {
+  max-width: 505px;
   margin: 0;
-  padding-left: 61px;
+  padding-left: 60px;
   font: var(--body-text)
+}
+
+@media screen and (min-width: 650px){
+  .about {
+    padding: 79px 25% 120px;
+  }
 }

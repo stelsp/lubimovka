@@ -15,13 +15,13 @@
 
 .videos__text {
   margin: 32px 0 0;
-  max-width: 716px;
+  width: 716px;
   font: var(--body-text);
   padding: 0 24px;
 }
 
 .videos__iframe {
-  width: 366px;
+  max-width: 366px;
   height: 206px;
   border: none;
 }
@@ -64,7 +64,7 @@
   }
 
   .videos__iframe_one-video {
-    width: 420px;
+    max-width: 420px;
     height: 236px;
   }
 }
@@ -75,7 +75,7 @@
   }
 
   .videos__iframe_one-video {
-    width: 716px;
+    max-width: 716px;
     height: 403px;
   }
 }

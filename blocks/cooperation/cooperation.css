@@ -48,7 +48,7 @@
 @media screen and (min-width: 1440px) {
   .cooperation {
     margin: 0;
-    padding: 100px 232px 169px 692px;
+    padding: 100px 0 169px 692px;
   }
 
   .cooperation__title {

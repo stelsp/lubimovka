@@ -16,6 +16,12 @@
 @import url(../blocks/plays/plays.css);
 /* блок persons */
 @import url(../blocks/persons/persons.css);
+@import url(../blocks/persons/__header/persons__header.css);
+@import url(../blocks/persons/__caption/persons__caption.css);
+@import url(../blocks/persons/__image/persons__image.css);
+@import url(../blocks/persons/__item/persons__item.css);
+@import url(../blocks/persons/__list/persons__list.css);
+@import url(../blocks/persons/__name/persons__name.css);
 /* блок cooperation */
 @import url(../blocks/cooperation/cooperation.css);
 /* заголовок блоков */

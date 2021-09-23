@@ -1,14 +1,14 @@
 .intro__text-about {
   margin: 22px 0 0 46px;
   font: var(--headline-7);
-  width: 270px;
+  max-width: 270px;
 }
 
 @media screen and (min-width: 413px) {
 
   .intro__text-about {
     margin-left: 86px;
-    width: 304px;
+    max-width: 304px;
   }
 
 }
@@ -16,7 +16,7 @@
 @media screen and (min-width: 620px) {
 
   .intro__text-about {
-    width: 290px;
+    max-width: 290px;
     margin: 15px 0 0 20px;
   }
 
@@ -26,7 +26,7 @@
 
   .intro__text-about {
     font: var(--headline-6);
-    width: 420px;
+    max-width: 420px;
     margin: 0 0 0 180px;
   }
 

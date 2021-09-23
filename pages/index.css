@@ -6,6 +6,9 @@
 
 /* блок интро */
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__text-about/intro__text-about.css);
 /* блок about */
 @import url(../blocks/about/about.css);
 /* блок с видео */

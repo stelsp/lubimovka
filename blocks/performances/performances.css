@@ -13,6 +13,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   overflow-x: auto;
+
 }
 .performances__item {
   margin: 0;

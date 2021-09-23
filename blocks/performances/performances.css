@@ -1,19 +1,27 @@
 .performances {
-  max-width: 1440px;
   margin: 0 auto;
   padding: 0;
   display: grid;
   row-gap: 20px;
   grid-template-columns: auto;
 }
+.performances__title {
+  margin: 0;
+  padding: 0;
+  max-width: 369px;
+}
+@media screen and (min-width: 1200px) {
+  .performances__title {
+    max-width: 568px;
+  }
+}
 .performances__list {
   margin: 0;
   padding: 0;
   list-style: none;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 450px 450px 450px;
   overflow-x: auto;
-
 }
 .performances__item {
   margin: 0;
@@ -24,6 +32,17 @@
   column-gap: 30px;
   row-gap: 40px;
   border-bottom: 1px solid var(--color-carbonic);
+}
+@media screen and (min-width: 900px) {
+  .performances__item {
+    border-bottom: none;
+    border-right: 1px solid var(--color-carbonic);
+  }
+  .performances__item:last-child {
+    border-right: none;
+  }
+
+
 }
 .performances__image {
   display: block;

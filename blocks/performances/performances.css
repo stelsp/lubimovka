@@ -1,12 +1,17 @@
 .performances {
-  max-width: 414px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0;
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: auto;
 }
 .performances__list {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 .performances__item {
   margin: 0;

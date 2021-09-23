@@ -1,13 +1,13 @@
 .persons__header{
   font: var(--headline-6);
   letter-spacing: var(--letter-spacing);
-  width: 358px;
+  max-width: 358px;
   margin: 0;
 }
 
 .persons{
   background-color: var(--main);
-  margin: 123px 25px 112px 25px;
+  margin: 123px 0px 112px 25px;
 }
 
 .persons__caption{
@@ -60,6 +60,7 @@
             justify-content: center;
   }
   .persons__header{
+    font: var(--headline-4);
     margin-left: 362px;
   }
 }

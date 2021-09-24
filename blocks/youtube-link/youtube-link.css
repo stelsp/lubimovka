@@ -1,0 +1,28 @@
+@import url(./__description/youtube-link__description.css);
+@import url(./__heading/youtube-link__heading.css);
+@import url(./__button/youtube-link__button.css);
+@import url(./__container/youtube-link__container.css);
+
+
+.youtube-link {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-accent);
+  min-height: 392px;
+  padding: 56px 29px 72px 25px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .youtube-link {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.arrow_direction_right {
+  height: 25px;
+  width: 25px;
+  background-image: url(../../images/arrow-right.svg);
+}
+

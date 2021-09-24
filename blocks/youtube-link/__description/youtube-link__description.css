@@ -1,0 +1,13 @@
+.youtube-link__description {
+  font: var(--body-text);
+  margin: 16px 0 0 calc(87px - 25px);
+  max-width: 305px;
+}
+
+@media screen and (min-width: 768px) {
+  .youtube-link__description {
+    max-width: 410px;
+    margin: 20px 0 0;
+  }
+}
+

@@ -1,0 +1,9 @@
+.youtube-link__container {
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .youtube-link__container {
+    margin: 0;
+  }
+}

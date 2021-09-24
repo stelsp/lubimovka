@@ -34,6 +34,8 @@
 @import url(../blocks/persons/__item/persons__item.css);
 @import url(../blocks/persons/__list/persons__list.css);
 @import url(../blocks/persons/__name/persons__name.css);
+/* блок youtube-link */
+@import url(../blocks/youtube-link/youtube-link.css);
 /* блок cooperation */
 @import url(../blocks/cooperation/cooperation.css);
 

@@ -8,6 +8,27 @@
   font: var(--btn-title);
   cursor: pointer;
   box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
 }
 
+.button::before{
+  content: '';
+  background-color: black;
+  width: 0px;
+  height: 32px;
+  position:absolute;
+  top: 0;
+  right: 0;
+  transition-delay: 1s;
+  transition: all cubic-bezier(0.6, 0, 0.5, 1) 0.4s;
+  z-index: -1;
+}
 
+.button:hover {
+  color: white;
+}
+
+.button:hover::before {
+  width: 115px;
+}

@@ -26,8 +26,7 @@
 
   .gallery__title {
     max-width: 450px;
-    margin-left: 362px;
-    margin-bottom: 36px;
+    margin: 0 0 36px 362px;
   }
 
 }

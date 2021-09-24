@@ -32,3 +32,7 @@
 .button:hover::before {
   width: 115px;
 }
+
+.button:active {
+  transform: scale(1.2);
+}

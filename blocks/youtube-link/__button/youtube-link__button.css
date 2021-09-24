@@ -3,6 +3,7 @@
   justify-content: space-between;
   height: 56px;
   width: 298px;
+  color: var(--color-carbonic);
   box-sizing: border-box;
   padding: 15px 16px 16px 20px;
   margin: 16px 0 0 calc(87px - 25px);
@@ -10,6 +11,13 @@
   text-decoration: none;
   text-transform: uppercase;
   font: var(--body-text-small);
+}
+
+@media screen and (max-width: 400px) {
+  .youtube-link__button {
+  margin: 16px 0 0;
+  width: 266px;
+  }
 }
 
 @media screen and (min-width: 768px) {

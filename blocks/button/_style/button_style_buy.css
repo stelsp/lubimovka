@@ -1,0 +1,42 @@
+.button_style_buy {
+  /* box-sizing: border-box;
+  overflow: hidden; */
+  border-bottom: 1px black solid;
+  border-left: 1px black solid;
+  margin: 0;
+  padding: 8px 57px 3px 29px;
+  width: 154px;
+  height: 32px;
+}
+
+.button_style_buy::before{
+  content: '';
+  background-color: black;
+  width: 0px;
+  height: 32px;
+  position:absolute;
+  top: 0;
+  left: 0;
+  transition-delay: 1s;
+  transition: all cubic-bezier(0.6, 0, 0.5, 1) 0.4s;
+  z-index: -1;
+}
+
+.button_style_buy::after {
+  background-image: url(../../../images/arrow-right.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 154px;
+  height: 32px;
+  content: '';
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 25px;
+}
+.button_style_buy:hover::after {
+  background-image: url(../../../images/arrow-right_white.png);
+  z-index: 1000;
+}
+
+

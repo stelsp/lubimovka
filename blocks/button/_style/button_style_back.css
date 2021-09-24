@@ -1,6 +1,23 @@
 .button_style_back {
+  border-bottom: 1px black solid;
+  border-right: 1px black solid;
   margin: 0px 0 0 86px;
   padding: 9px 0 0 10px;
+  width: 115px;
+  height: 32px;
+}
+
+.button_style_back::before{
+  content: '';
+  background-color: black;
+  width: 0px;
+  height: 32px;
+  position:absolute;
+  top: 0;
+  right: 0;
+  transition-delay: 1s;
+  transition: all cubic-bezier(0.6, 0, 0.5, 1) 0.4s;
+  z-index: -1;
 }
 
 .button_style_back::after {

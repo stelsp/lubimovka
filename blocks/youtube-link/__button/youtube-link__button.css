@@ -1,0 +1,20 @@
+.youtube-link__button {
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  width: 298px;
+  box-sizing: border-box;
+  padding: 15px 16px 16px 20px;
+  margin: 16px 0 0 calc(87px - 25px);
+  border: 1px solid var(--color-carbonic);
+  text-decoration: none;
+  text-transform: uppercase;
+  font: var(--body-text-small);
+}
+
+@media screen and (min-width: 768px) {
+  .youtube-link__button {
+    margin: calc(180px - 56px) 0 calc(160px - 72px) 101px;
+
+  }
+}

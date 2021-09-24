@@ -17,6 +17,8 @@
 @import url(../blocks/plays/plays.css);
 /* блок persons */
 @import url(../blocks/persons/persons.css);
+/* блок youtube-link */
+@import url(../blocks/youtube-link/youtube-link.css);
 /* блок cooperation */
 @import url(../blocks/cooperation/cooperation.css);
 

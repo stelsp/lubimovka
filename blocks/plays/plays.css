@@ -52,6 +52,29 @@
   border-top: 1px solid var(--color-carbonic);
   color: var(--color-carbonic);
   text-decoration: none;
+  z-index: 2;
+  overflow: hidden;
+  transition: all 300ms ease-in;
+}
+
+.play-card__button:hover {
+  color: var(--color-snow-white);
+}
+
+.play-card__button:hover::after {
+  left: 0;
+}
+
+.play-card__button::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-carbonic);
+  position: absolute;
+  z-index: -1;
+  left: -100%;
+  top: 0;
+  transition: left 300ms ease-in;
 }
 
 .play-card__button_type_view {
@@ -82,6 +105,9 @@
 }
 
 /* arrow ---------------------------------------------------------------------------------------------- */
+.play-card__button:hover .arrow {
+  filter: invert(100%);
+}
 
 .arrow_direction_top-right {
   background-image: url(../../images/arrow-top-right.svg);
@@ -94,6 +120,8 @@
   width: 25px;
   height: 25px;
 }
+
+
 
 /* media ---------------------------------------------------------------------------------------------------- */
 

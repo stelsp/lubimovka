@@ -1,34 +1,3 @@
 .gallery {
   padding-top: 145px;
 }
-
-.gallery__items {
-  display: grid;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  gap: 2px 3px;
-  grid-template-columns: repeat(auto-fill, minmax(320px, max-content));
-}
-
-.gallery__image {
-  min-width: 200px;
-  width: 100%;
-}
-
-@media screen and (min-width: 413px) {
-
-  .gallery__items {
-    grid-template-columns: repeat(auto-fill, minmax(205px, max-content));
-  }
-
-}
-
-@media screen and (min-width: 1040px) {
-
-  .gallery__items {
-    gap: 1px 1.02px;
-    grid-template-columns: repeat(auto-fill, minmax(330px, max-content));
-  }
-
-}

@@ -1,0 +1,33 @@
+.intro__text-about {
+  margin: 22px 0 0 46px;
+  font: var(--headline-7);
+  max-width: 270px;
+}
+
+@media screen and (min-width: 413px) {
+
+  .intro__text-about {
+    margin-left: 86px;
+    max-width: 304px;
+  }
+
+}
+
+@media screen and (min-width: 620px) {
+
+  .intro__text-about {
+    max-width: 290px;
+    margin: 15px 0 0 20px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+  .intro__text-about {
+    font: var(--headline-6);
+    max-width: 420px;
+    margin: 0 0 0 180px;
+  }
+
+}

@@ -9,25 +9,12 @@
   </head>
   <body class="body">
     <main class="content">
+      
       <section class="intro">
-        <button
-          class="button button__back"
-          type="button"
-          aria-label="button-back"
-        >
-          проекты
-        </button>
-        <h1 class="intro__title">Любимовка. Ещё</h1>
-        <p class="intro__text-about">
-          Межсезонные читки и&nbsp;обсуждение пьес из&nbsp;списка отмеченных
-          отборщиками Любимовки. Можно слушать, обсуждать и&nbsp;даже
-          участвовать.
-        </p>
-        <img
-          src="./images/intro_readings.jpg"
-          alt="фотография читатели"
-          class="intro__image"
-        />
+        <a href="#" class="button button_style_back">проекты</a>
+        <h1 class="heading-for-pages intro__title">Любимовка. Ещё</h1>
+        <p class="intro__text-about">Межсезонные читки и&nbsp;обсуждение пьес из&nbsp;списка отмеченных отборщиками Любимовки. Можно слушать, обсуждать и&nbsp;даже участвовать.</p>
+        <img src="./images/intro_readings.jpg" alt="фотография читатели" class="intro__image">
       </section>
 
       <section class="about">
@@ -41,8 +28,7 @@
       </section>
 
       <section class="videos">
-        <div class="videos__block videos_indent">
-          <h2 class="videos__title">Заголовок блока с видео</h2>
+        <h2 class="videos__title videos__title_one-video">Заголовок блока с видео</h2>
           <iframe
             class="videos__iframe videos__iframe_one-video"
             src="https://player.vimeo.com/video/138458407?h=f3788af431&title=0&byline=0&portrait=0"
@@ -65,16 +51,14 @@
             что это уже не искусство. Искусство для того, чтобы люди догадались,
             домыслили, дочувствовали что-то.
           </p>
-        </div>
-        <div class="videos__block">
-          <h2 class="videos__title videos_indent">
-            Заголовок блока с двумя видео
-          </h2>
-          <ul class="videos__iframes">
+        <h2 class="videos__title videos__title_two-video">
+          Заголовок блока с двумя видео
+        </h2>
+          <ul class="videos__iframes videos__frames_two-video">
             <li class="videos__item">
               <iframe
                 class="videos__iframe"
-                src="https://player.vimeo.com/video/182006010?h=e790006a57&title=0&byline=0&portrait=0"
+                src="https://player.vimeo.com/video/138458407?h=f3788af431&title=0&byline=0&portrait=0"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowfullscreen
               ></iframe>
@@ -82,48 +66,45 @@
             <li class="videos__item">
               <iframe
                 class="videos__iframe"
-                src="https://player.vimeo.com/video/220024678?h=bdda512b22&title=0&byline=0&portrait=0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </li>
-          </ul>
-        </div>
-        <div class="videos__block">
-          <h2 class="videos__title videos_indent">
-            Заголовок блока с тремя видео
-          </h2>
-          <ul class="videos__iframes">
-            <li class="videos__item">
-              <iframe
-                class="videos__iframe"
-                src="https://player.vimeo.com/video/106467997?h=dbed9b6031&title=0&byline=0&portrait=0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </li>
-            <li class="videos__item">
-              <iframe
-                class="videos__iframe"
-                src="https://player.vimeo.com/video/328962874?h=efd34cc39c&title=0&byline=0&portrait=0"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </li>
-            <li class="videos__item">
-              <iframe
-                class="videos__iframe"
-                src="https://player.vimeo.com/video/246437918?h=8d828ef054&title=0&byline=0&portrait=0"
+                src="https://player.vimeo.com/video/138458407?h=f3788af431&title=0&byline=0&portrait=0"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowfullscreen
               ></iframe>
             </li>
           </ul>
-        </div>
+        <h2 class="videos__title videos__title_three-video">
+          Заголовок блока с тремя видео
+        </h2>
+          <ul class="videos__iframes videos__frames_three-video">
+            <li class="videos__item">
+              <iframe
+                class="videos__iframe"
+                src="https://player.vimeo.com/video/138458407?h=f3788af431&title=0&byline=0&portrait=0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </li>
+            <li class="videos__item">
+              <iframe
+                class="videos__iframe"
+                src="https://player.vimeo.com/video/138458407?h=f3788af431&title=0&byline=0&portrait=0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </li>
+            <li class="videos__item">
+              <iframe
+                class="videos__iframe"
+                src="https://player.vimeo.com/video/138458407?h=f3788af431&title=0&byline=0&portrait=0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </li>
+          </ul>
       </section>
 
       <section class="gallery" aria-label="Галерея">
-        <h2 class="heading-for-blocks">Заголовок блока с фотографиями</h2>
+        <h2 class="heading-for-blocks gallery__title">Заголовок блока с&nbsp;фотографиями</h2>
         <ul class="gallery__items">
           <li class="gallery__item">
             <img
@@ -180,6 +161,69 @@
               alt="изображение в галерее"
               class="gallery__image"
             />
+          </li>
+        </ul>
+      </section>
+
+      <section class="performances">
+        <h2 class="heading-for-blocks performances__title">Заголовок блока со спектаклями любое количество</h2>
+        <ul class="performances__list">
+          <li class="performances__item">
+            <img src="./images/performances_linya.jpg" alt="#" class="performances__image">
+            <div class="performances__container">
+              <div class="performances__date-container">
+                <p class="performances__date">15 декабря</p>
+                <p class="performances__time">11:00</p>
+              </div>
+              <div class="performances__text-container">
+                <h3 class="performances__card-title">Про линя</h3>
+                <p class="performances__authors">Драматург: Ольга&nbsp;Казакова
+                  Режиссёр: Катя&nbsp;Ганюшина</p>
+                <p class="performances__quote">читка&nbsp;проекта Любимовка.Ещё</p>
+              </div>
+            </div>
+            <div class="performances__links-container">
+              <a href="" class="performances__link">О СПЕКТАКЛЕ</a>
+              <a href="" class="performances__link">БИЛЕТЫ</a>
+            </div>
+          </li>
+          <li class="performances__item">
+            <img src="./images/performances_linya.jpg" alt="#" class="performances__image">
+            <div class="performances__container">
+              <div class="performances__date-container">
+                <p class="performances__date">15 декабря</p>
+                <p class="performances__time">11:00</p>
+              </div>
+              <div class="performances__text-container">
+                <h3 class="performances__card-title">Про линя</h3>
+                <p class="performances__authors">Драматург: Ольга&nbsp;Казакова
+                  Режиссёр: Катя&nbsp;Ганюшина</p>
+                <p class="performances__quote">читка&nbsp;проекта Любимовка.Ещё</p>
+              </div>
+            </div>
+            <div class="performances__links-container">
+              <a href="" class="performances__link">О СПЕКТАКЛЕ</a>
+              <a href="" class="performances__link">БИЛЕТЫ</a>
+            </div>
+          </li>
+          <li class="performances__item">
+            <img src="./images/performances_linya.jpg" alt="#" class="performances__image">
+            <div class="performances__container">
+              <div class="performances__date-container">
+                <p class="performances__date">15 декабря</p>
+                <p class="performances__time">11:00</p>
+              </div>
+              <div class="performances__text-container">
+                <h3 class="performances__card-title">Про линя</h3>
+                <p class="performances__authors">Драматург: Ольга&nbsp;Казакова
+                  Режиссёр: Катя&nbsp;Ганюшина</p>
+                <p class="performances__quote">читка&nbsp;проекта Любимовка.Ещё</p>
+              </div>
+            </div>
+            <div class="performances__links-container">
+              <a href="" class="performances__link">О СПЕКТАКЛЕ</a>
+              <a href="" class="performances__link">БИЛЕТЫ</a>
+            </div>
           </li>
         </ul>
       </section>
@@ -312,7 +356,7 @@
             <p class="persons__name">Тереза Шимчак</p>
             <p class="persons__caption">Драматург, сценарист, преподаватель</p>
           </li>
-          <li class="persons-item">
+          <li class="persons__item">
             <img
               src="./images/persones_1.jpg"
               class="persons__image"
@@ -343,20 +387,12 @@
       </section>
 
       <section class="cooperation">
-        <img
-          src="./images/cooperation_asterisk.svg"
-          alt="#"
-          class="cooperation__asterisk"
-        />
-        <h2 class="cooperation__title">Проект открыт к сотрудничеству</h2>
-        <p class="cooperation__text">
-          Мы находимся в постоянном поиске режиссёров и актеров,
-          заинтересованных в постановке читок.
-        </p>
-        <p class="cooperation__text">
-          Пишите на <a href="#" class="cooperation__link">more@lubimovka.ru</a>
-        </p>
+        <img src="./images/cooperation_asterisk.svg" alt="#" class="cooperation__asterisk">
+        <h2 class="cooperation__title">Проект&nbsp;открыт к&nbsp;сотрудничеству</h2>
+        <p class="cooperation__text">Мы находимся в постоянном поиске режиссёров и актеров, заинтересованных в постановке читок.</p>
+        <p class="cooperation__text">Пишите на <a href="#" class="cooperation__link">more@lubimovka.ru</a></p>
       </section>
+    
     </main>
   </body>
 </html>

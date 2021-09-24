@@ -34,7 +34,6 @@
     margin: 0;
     grid-template-columns: 450px 450px 450px;
     overflow-x: auto;
-    overflow-y: hidden;
     column-gap: 30px;
   }
 }
@@ -42,6 +41,7 @@
 .performances__item {
   margin: 0;
   padding-left: 24px;
+  padding-bottom: 30px;
   display: grid;
   grid-template-columns: 92px auto;
   column-gap: 30px;
@@ -56,8 +56,6 @@
   .performances__item:last-child {
     border-right: none;
   }
-
-
 }
 .performances__image {
   display: block;
@@ -116,7 +114,6 @@
   margin: 0;
   padding: 0;
   font: var(--btn-title);
-  border-bottom: 1px solid var(--color-carbonic);
   max-width: 154px;
   margin-right: 26px;
 }

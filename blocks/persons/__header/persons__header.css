@@ -1,13 +1,10 @@
 .persons__header{
-  font: var(--headline-6);
   letter-spacing: var(--letter-spacing);
   max-width: 358px;
-  margin: 0;
 }
 
 @media screen and (min-width: 1000px){
   .persons__header{
-    font: var(--headline-4);
     margin-left: 362px;
   }
 }

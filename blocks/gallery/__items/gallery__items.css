@@ -2,12 +2,13 @@
   display: grid;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   gap: 2px 3px;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: auto;
 }
 
-@media screen and (min-width: 1040px) {
+@media screen and (min-width: 1440px) {
 
   .gallery__items {
     gap: 1px 1.02px;

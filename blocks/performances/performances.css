@@ -5,10 +5,17 @@
   grid-template-columns: auto;
 }
 .performances__title {
-  margin: 100px auto 34px;
+  margin: 100px 0 34px 24px;
   max-width: 369px;
 }
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 460px) {
+  .performances__title {
+  margin: 100px auto 34px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .performances__title {
     margin: 122px 0 75px 362px;
     max-width: 568px;
@@ -27,13 +34,14 @@
     margin: 0;
     grid-template-columns: 450px 450px 450px;
     overflow-x: auto;
+    overflow-y: hidden;
     column-gap: 30px;
   }
 }
 
 .performances__item {
   margin: 0;
-
+  padding-left: 24px;
   display: grid;
   grid-template-columns: 92px auto;
   column-gap: 30px;

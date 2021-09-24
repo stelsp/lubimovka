@@ -4,13 +4,14 @@
   padding: 0;
   margin: 0;
   gap: 2px 3px;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
 }
 
 @media screen and (min-width: 1040px) {
 
   .gallery__items {
     gap: 1px 1.02px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   }
 
 }

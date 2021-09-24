@@ -3,6 +3,7 @@
 @import url(../blocks/body/body.css);
 /* кнопка назад */
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/_style/button_style_back.css);
 /* блок с заголовками для страниц */
 @import url(../blocks/heading-for-pages/heading-for-pages.css);
 /* заголовок блоков */

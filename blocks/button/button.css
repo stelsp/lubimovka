@@ -10,21 +10,4 @@
   box-sizing: border-box;
 }
 
-.button__back {
-  margin: 0px 0 0 86px;
-  background-image: url(../../images/icon/Union.svg);
-  background-repeat: no-repeat;
-  cursor: pointer;
-  box-sizing: border-box;
-  background-position:right;
-  background-size: 21px;
-  padding-left: 10px;
-}
 
-@media screen and (min-width: 1440px) {
-
-  .button__back {
-    margin: 0px 0 0 30px;
-  }
-
-}

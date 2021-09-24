@@ -106,6 +106,10 @@
     display: none;
   }
 
+  .play-card__container:hover .play-card__button {
+    display: flex;
+  }
+
   .play-card__container {
     height: 300px;
     width: 240px;

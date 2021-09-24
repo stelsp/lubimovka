@@ -1,12 +1,23 @@
 .button_style_back {
   margin: 0px 0 0 86px;
+  padding: 9px 0 0 10px;
+}
+
+.button_style_back::after {
   background-image: url(../../../images/icon/Union.svg);
+  position:absolute;
+  top: 0;
+  right: 0px;
+  width: 115px;
+  height: 32px;
+  content: '';
   background-repeat: no-repeat;
-  cursor: pointer;
-  box-sizing: border-box;
   background-position:right;
   background-size: 21px;
-  padding: 9px 0 0 10px;
+}
+.button_style_back:hover::after {
+  background-image: url(../../../images/icon/Union-white.png);
+  z-index: 1000;
 }
 
 @media screen and (min-width: 1440px) {
@@ -16,3 +27,4 @@
   }
 
 }
+

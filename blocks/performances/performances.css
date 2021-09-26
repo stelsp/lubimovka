@@ -1,11 +1,7 @@
 .performances {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: auto; /* тут js */
 }
-
-
-
 .performances__title {
   margin: 100px 0 34px 24px;
   max-width: 369px;

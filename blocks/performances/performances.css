@@ -70,11 +70,17 @@
     border-bottom: none;
     border-right: 1px solid var(--color-carbonic);
     row-gap: 16px;
+    grid-template-columns: 120px auto;
   }
 }
 
 .performances__image {
-  max-width: 92px;
+  width: 92px;
+}
+@media screen and (min-width: 1000px) {
+  .performances__image {
+    width: 120px;
+  }
 }
 .performances__date-container {
   display: flex;
@@ -94,6 +100,11 @@
 @media screen and (min-width: 350px) {
   .performances__date {
     margin-right: 46px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .performances__date {
+    margin-right: 42px;
   }
 }
 .performances__time {
@@ -122,7 +133,7 @@
 }
 @media screen and (min-width: 1000px) {
   .performances__authors {
-    margin-bottom: 20px;
+    margin: 0 0 20px 30px;
   }
 }
 .performances__quote {
@@ -144,12 +155,9 @@
 }
 .performances__link {
   margin: 0 27px 0 0;
-  padding: 0;
-  font: var(--btn-title);
-  max-width: 154px;
 }
 .performances__link:last-child {
-  margin-right: 0;
+  margin: 0;
 }
 @media screen and (min-width: 1000px) {
   .performances__link {

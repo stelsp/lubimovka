@@ -88,6 +88,13 @@
 .performances__date-container {
   display: flex;
   margin-bottom: 16px;
+  flex-direction: column;
+}
+@media screen and (min-width: 350px) {
+  .performances__date-container {
+    margin-bottom: 4px;
+    flex-direction: row;
+  }
 }
 @media screen and (min-width: 1000px) {
   .performances__date-container {
@@ -148,20 +155,32 @@
 .performances__links-container {
   grid-column-start: 1;
   grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 350px) {
+  .performances__links-container {
+    flex-direction: row;
+  }
 }
 @media screen and (min-width: 1000px) {
   .performances__links-container {
     grid-column-start: 2;
-    display: flex;
     flex-direction: column;
   }
 }
 .performances__link {
-  margin: 0 27px 0 0;
+  margin: 0;
 }
 .performances__link:last-child {
   margin-right: 0;
 }
+@media screen and (min-width: 350px) {
+  .performances__link {
+    margin: 0 27px 0 0;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   .performances__link {
     margin: 0 0 16px 0;

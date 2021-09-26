@@ -1,15 +1,13 @@
-.button_style_buy {
-  /* box-sizing: border-box;
-  overflow: hidden; */
+.button_style_arrow-left {
   border-bottom: 1px black solid;
   border-left: 1px black solid;
-  margin: 0;
-  padding: 8px 57px 3px 29px;
-  width: 154px;
+  margin: 16px 0 0 0;
+  padding: 0 0 0 28px;
+  max-width: 154px;
   height: 32px;
 }
 
-.button_style_buy::before{
+.button_style_arrow-left::before{
   content: '';
   background-color: black;
   width: 0px;
@@ -22,21 +20,18 @@
   z-index: -1;
 }
 
-.button_style_buy::after {
+.button_style_arrow-left::after {
   background-image: url(../../../images/arrow-right.svg);
   position: absolute;
   top: 0;
   left: 0;
-  width: 154px;
+  width: 25px;
   height: 32px;
   content: '';
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 25px;
 }
-.button_style_buy:hover::after {
+.button_style_arrow-left:hover::after {
   background-image: url(../../../images/arrow-right_white.png);
   z-index: 1000;
 }
-
-

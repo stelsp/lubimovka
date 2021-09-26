@@ -5,7 +5,12 @@
   cursor: pointer;
   box-sizing: border-box;
   position: relative;
-  overflow: hidden;
+  overflow:hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
 }
 
 

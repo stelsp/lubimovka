@@ -169,9 +169,7 @@
     flex-direction: column;
   }
 }
-.performances__link {
-  margin: 0;
-}
+
 .performances__link:last-child {
   margin-right: 0;
 }

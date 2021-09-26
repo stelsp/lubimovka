@@ -1,0 +1,34 @@
+.buttons-nav_type_nav-arrow {
+  background-image: url(../../../images/icon/nbt-back.png);
+  background-position: center;
+  top: calc(50% - 33px);
+  left: -98px;
+  width: 66px;
+  height: 66px;
+}
+
+.buttons-nav_type_nav-arrow::before {
+  content: '';
+  position: absolute;
+  top: 26px;
+  left: 22px;
+  background-image: url(../../../images/icon/Union.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 13px;
+  z-index: 1;
+}
+
+.buttons-nav_type_nav-arrow::after {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  background-image: url(../../../images/icon/Ellipse.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 48px;
+  z-index: 1;
+}

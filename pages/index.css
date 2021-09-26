@@ -40,4 +40,15 @@
 @import url(../blocks/youtube-link/youtube-link.css);
 /* блок cooperation */
 @import url(../blocks/cooperation/cooperation.css);
+/* всполывающее окно */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__photo/popup__photo.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+/* кнопки навигации */
+@import url(../blocks/buttons-nav/buttons-nav.css);
+@import url(../blocks/buttons-nav/_type/buttons-nav_type_close.css);
+@import url(../blocks/buttons-nav/_type/buttons-nav_type_nav-arrow.css);
+@import url(../blocks/buttons-nav/_type/buttons-nav_type_nav-arrow-right.css);
+
 

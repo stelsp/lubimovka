@@ -29,7 +29,8 @@
   height: 32px;
   content: '';
   background-repeat: no-repeat;
-  background-position:right;
+  background-position: right;
+  background-size: contain;
 }
 .button_style_arrow-right:hover::after {
   background-image: url(../../../images/icon/Union-white.png);

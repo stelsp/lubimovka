@@ -1,74 +1,108 @@
 .performances {
   margin: 0 auto;
-  padding: 0;
   display: grid;
-  grid-template-columns: auto;
 }
 .performances__title {
   margin: 100px 0 34px 24px;
   max-width: 369px;
 }
-
 @media screen and (min-width: 460px) {
   .performances__title {
-  margin: 100px auto 34px;
+    margin: 100px auto 34px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .performances__title {
+    margin: 122px 0 75px 362px;
+    max-width: 450px;
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .performances__title {
-    margin: 122px 0 75px 362px;
-    max-width: 568px;
-  }
-}
 .performances__list {
   margin: 0 auto;
   padding: 0;
   list-style: none;
   display: grid;
-  grid-template-columns: auto;
   row-gap: 30px;
 }
-@media screen and (min-width: 700px) {
-  .performances__list {
-    margin: 0;
-    grid-template-columns: 450px 450px 450px;
+@media screen and (min-width: 1000px) {
+  .performances__title_items_one {
+    margin-left: 210px;
+  }
+  .performances_items_one {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0;
+  }
+  .performances__list_items_one {
+    margin: 122px 0 75px;
+    grid-template-columns: 1fr;
+    row-gap: 0;
+  }
+  .performances__list_items_two {
+    display: flex;
+    justify-content: space-around;
+  }
+  .performances__list_items_three-or-more {
+    display: flex;
+    flex-wrap: nowrap;
     overflow-x: auto;
-    column-gap: 30px;
   }
 }
 
 .performances__item {
-  margin: 0;
-  padding-left: 24px;
-  padding-bottom: 30px;
+  flex: 0 0 auto;
+  padding: 0 0 30px 24px;
   display: grid;
   grid-template-columns: 92px auto;
   column-gap: 30px;
   row-gap: 40px;
   border-bottom: 1px solid var(--color-carbonic);
 }
-@media screen and (min-width: 700px) {
+.performances__item:last-child {
+  border-right: none;
+  border-bottom: none;
+}
+@media screen and (min-width: 1000px) {
   .performances__item {
+    padding: 0;
+    margin-left: 60px;
     border-bottom: none;
     border-right: 1px solid var(--color-carbonic);
+    row-gap: 16px;
+    grid-template-columns: 120px auto;
   }
-  .performances__item:last-child {
-    border-right: none;
+
+  .performances__item_items_three-or-more {
+    margin-left: 30px;
   }
-}
-.performances__image {
-  display: block;
-  max-width: 92px;
 }
 
+.performances__image {
+  width: 92px;
+}
+@media screen and (min-width: 1000px) {
+  .performances__image {
+    width: 120px;
+  }
+}
 .performances__date-container {
   display: flex;
+  margin-bottom: 16px;
+  flex-direction: column;
+}
+@media screen and (min-width: 350px) {
+  .performances__date-container {
+    margin-bottom: 4px;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .performances__date-container {
+    margin-bottom: 4px;
+  }
 }
 .performances__date {
-  margin: 0;
-  margin-right: 10px;
-  margin-bottom: 16px;
+  margin: 0 10px 0 0;
   padding: 0;
   font: var(--body-text);
   letter-spacing: var(--letter-spacing);
@@ -78,26 +112,39 @@
     margin-right: 46px;
   }
 }
+@media screen and (min-width: 1000px) {
+  .performances__date {
+    margin-right: 42px;
+  }
+}
 .performances__time {
   margin: 0;
   padding: 0;
   font: var(--body-text);
   letter-spacing: var(--letter-spacing);
 }
-
 .performances__card-title {
-  margin: 0;
+  margin: 0 0 8px 0;
   padding: 0;
-  margin-bottom: 8px;
   font: var(--headline-6);
   letter-spacing: var(--letter-spacing);
 }
+@media screen and (min-width: 1000px) {
+  .performances__card-title {
+    font: var(--headline-5);
+    margin-bottom: 16px;
+  }
+}
 .performances__authors {
-  margin: 0;
+  margin: 0 0 8px 0;
   padding: 0;
-  margin-bottom: 8px;
   max-width: 255px;
   font: var(--body-text-small);
+}
+@media screen and (min-width: 1000px) {
+  .performances__authors {
+    margin: 0 0 20px 30px;
+  }
 }
 .performances__quote {
   margin: 0;
@@ -105,20 +152,36 @@
   max-width: 150px;
   font: var(--caption-text);
 }
-
 .performances__links-container {
   grid-column-start: 1;
   grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
 }
-.performances__link {
-  margin: 0;
-  padding: 0;
-  font: var(--btn-title);
-  max-width: 154px;
-  margin-right: 26px;
+@media screen and (min-width: 350px) {
+  .performances__links-container {
+    flex-direction: row;
+  }
 }
+@media screen and (min-width: 1000px) {
+  .performances__links-container {
+    grid-column-start: 2;
+    flex-direction: column;
+  }
+}
+
 .performances__link:last-child {
   margin-right: 0;
+}
+@media screen and (min-width: 350px) {
+  .performances__link {
+    margin: 0 27px 0 0;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .performances__link {
+    margin: 0 0 16px 0;
+  }
 }
 
 

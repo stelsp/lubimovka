@@ -17,8 +17,20 @@
 @import url(../blocks/intro/__text-about/intro__text-about.css);
 /* блок about */
 @import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__text/about__text.css);
 /* блок с видео */
 @import url(../blocks/videos/videos.css);
+@import url(../blocks/videos/__iframe/videos__iframe.css);
+@import url(../blocks/videos/__iframe/_block/videos__iframe_block_one-video.css);
+@import url(../blocks/videos/__iframe/_size/videos__iframe_size_large.css);
+@import url(../blocks/videos/__iframe/_size/videos__iframe_size_small.css);
+@import url(../blocks/videos/__iframes/videos__iframes.css);
+@import url(../blocks/videos/__iframes/_block/videos__iframes_block_two-video.css);
+@import url(../blocks/videos/__iframes/_block/videos__iframes_block_three-video.css);
+@import url(../blocks/videos/__text/videos__text.css);
+@import url(../blocks/videos/__title/videos__title.css);
+@import url(../blocks/videos/__title/_block/videos__title_block_one-video.css);
 /* галерея */
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__items/gallery__items.css);

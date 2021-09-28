@@ -1,0 +1,13 @@
+.videos__text {
+  margin: 32px 0 0;
+  max-width: 716px;
+  padding: 0 24px;
+  font: var(--body-text);
+}
+
+@media screen and (min-width: 765px) {
+  .videos__text {
+    margin: 55px 0 0;
+    padding-left: 25%;
+  }
+}

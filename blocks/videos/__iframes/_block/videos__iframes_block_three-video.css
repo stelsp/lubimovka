@@ -1,0 +1,5 @@
+@media screen and (min-width: 1160px) {
+  .videos__iframes_block_three-video {
+    justify-content: center;
+  }
+}

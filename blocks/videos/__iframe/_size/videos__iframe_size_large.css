@@ -1,0 +1,18 @@
+.videos__iframe_size_large {
+  width: 272px;
+  height: 168px;
+}
+
+@media screen and (min-width: 413px) {
+  .videos__iframe_size_large {
+    width: 366px;
+    height: 206px;
+  }
+}
+
+@media screen and (min-width: 1160px) {
+  .videos__iframe_size_large {
+    width: 716px;
+    height: 403px;
+  }
+}

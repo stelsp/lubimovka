@@ -1,0 +1,8 @@
+.buttons-nav_type_close {
+  background-image: url(../../../images/icon/bnt-close.png);
+  background-position: center;
+  top: 16px;
+  right: 16px;
+  width: 41px;
+  height: 41px;
+}

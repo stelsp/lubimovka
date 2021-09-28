@@ -1,0 +1,6 @@
+.buttons-nav_type_nav-arrow-right {
+  transform: scaleX(-1);
+  left: inherit;
+  right: -98px;
+  top: calc(50% - 33px);
+}

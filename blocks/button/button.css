@@ -15,6 +15,7 @@
 
 
 .button:hover {
+  transition: color cubic-bezier(0.6, 0, 0.5, 1) 0.4s;
   color: white;
 }
 

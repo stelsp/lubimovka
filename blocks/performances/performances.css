@@ -158,7 +158,7 @@
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 400px) {
   .performances__links-container {
     flex-direction: row;
   }
@@ -175,7 +175,7 @@
 }
 @media screen and (min-width: 350px) {
   .performances__link {
-    margin: 0 27px 0 0;
+    margin: 0 27px 8px 0;
   }
 }
 @media screen and (min-width: 1000px) {

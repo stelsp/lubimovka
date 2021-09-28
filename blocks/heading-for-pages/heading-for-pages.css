@@ -5,6 +5,7 @@
 @media screen and (min-width: 768px) {
 
   .heading-for-pages {
+    all: unset;
     font: var(--headline-2);
   }
 

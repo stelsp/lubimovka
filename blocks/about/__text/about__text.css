@@ -1,0 +1,6 @@
+.about__text {
+  max-width: 505px;
+  margin: 0;
+  padding-left: 60px;
+  font: var(--body-text)
+}

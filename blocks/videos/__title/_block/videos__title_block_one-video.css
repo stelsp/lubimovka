@@ -1,0 +1,9 @@
+.videos__title_block_one-video {
+  margin: 57px 0 32px;
+}
+
+@media screen and (min-width: 765px) {
+  .videos__title_block_one-video {
+    margin: 98px 0 37px;
+  }
+}

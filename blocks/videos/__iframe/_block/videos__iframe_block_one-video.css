@@ -1,0 +1,9 @@
+.videos__iframe_block_one-video {
+  padding: 0 24px;
+}
+
+@media screen and (min-width: 765px) {
+  .videos__iframe_block_one-video {
+    padding-left: 25%;
+  }
+}

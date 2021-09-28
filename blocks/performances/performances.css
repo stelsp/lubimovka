@@ -11,7 +11,7 @@
     margin: 100px auto 34px;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .performances__title {
     margin: 122px 0 75px 362px;
     max-width: 450px;
@@ -25,7 +25,7 @@
   display: grid;
   row-gap: 30px;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .performances__title_items_one {
     margin-left: 210px;
   }
@@ -62,7 +62,7 @@
   border-right: none;
   border-bottom: none;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .performances__item {
     padding: 0;
     margin-left: 60px;
@@ -80,7 +80,7 @@
 .performances__image {
   width: 92px;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .performances__image {
     width: 120px;
   }
@@ -96,7 +96,7 @@
     flex-direction: row;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .performances__date-container {
     margin-bottom: 4px;
   }
@@ -112,7 +112,7 @@
     margin-right: 46px;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .performances__date {
     margin-right: 42px;
   }
@@ -129,7 +129,7 @@
   font: var(--headline-6);
   letter-spacing: var(--letter-spacing);
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .performances__card-title {
     font: var(--headline-5);
     margin-bottom: 16px;
@@ -141,7 +141,7 @@
   max-width: 255px;
   font: var(--body-text-small);
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .performances__authors {
     margin: 0 0 20px 30px;
   }
@@ -163,7 +163,7 @@
     flex-direction: row;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .performances__links-container {
     grid-column-start: 2;
     flex-direction: column;
@@ -178,7 +178,7 @@
     margin: 0 27px 8px 0;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .performances__link {
     margin: 0 0 16px 0;
   }

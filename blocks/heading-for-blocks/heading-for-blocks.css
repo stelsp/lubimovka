@@ -1,7 +1,5 @@
 .heading-for-blocks {
   font: var(--headline-6);
-  margin: 0;
-  padding: 0;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,33 +1,7 @@
-@keyframes identifier {
-  0% {
-  border-radius: 100% 0 0 100% / 50% 0 0 50%;
-  border-right: 0;
-  width: 24px;
-  height: 48px;
-  opacity: 1;
-
-  }
- 50% {
-  border-radius:   50% 50% 0 0 / 100% 100% 0 0;
-  border-bottom: 0;
-  width: 48px;
-  height: 24px;
-  }
-100% {
-    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
-  border-left: 0;
-  width: 24px;
-  height: 48px;
-  left: auto;
-  right: 8px;
-  }
-}
 .buttons-nav_type_nav-arrow {
   box-sizing: border-box;
-  background-image: url(../../../images/icon/nbt-back.png);
-  background-position: center;
   top: calc(50% - 33px);
-  left: -98px;
+  left: 0px;
   width: 66px;
   height: 66px;
 }
@@ -81,4 +55,15 @@
 .buttons-nav_type_nav-arrow:active::after {
   box-shadow: 0 0 0 5px var(--color-carbonic);
   transition: box-shadow cubic-bezier(0.6, 0, 0.5, 1) 0.4s;
+}
+
+@media screen and (min-width: 600px) {
+
+  .buttons-nav_type_nav-arrow {
+    top: calc(50% - 33px);
+    left: -98px;
+    width: 66px;
+    height: 66px;
+  }
+
 }

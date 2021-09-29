@@ -1,6 +1,17 @@
 .buttons-nav_type_nav-arrow-right {
   transform: scaleX(-1);
   left: inherit;
-  right: -98px;
+  right: 0px;
   top: calc(50% - 33px);
+}
+
+@media screen and (min-width: 600px) {
+
+  .buttons-nav_type_nav-arrow {
+    top: calc(50% - 33px);
+    left: -98px;
+    width: 66px;
+    height: 66px;
+  }
+
 }

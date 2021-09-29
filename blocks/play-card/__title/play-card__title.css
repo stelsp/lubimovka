@@ -1,0 +1,5 @@
+.play-card__title {
+  font: var(--headline-7);
+  padding: 16px 46px 16px 16px;
+  margin: 0;
+}

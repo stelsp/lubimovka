@@ -1,0 +1,9 @@
+.play-card_gap {
+  margin-right: 31px;
+}
+.play-card_gap:first-child {
+  margin-left: 24px;
+}
+.play-card_gap:last-child{
+  margin-right: 24px;
+}

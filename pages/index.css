@@ -40,6 +40,19 @@
 @import url(../blocks/performances/performances.css);
 /* блок plays */
 @import url(../blocks/plays/plays.css);
+@import url(../blocks/plays/__container/plays__container.css);
+@import url(../blocks/plays/__title/plays__title.css);
+/* блок play-card */
+@import url(../blocks/play-card/play-card.css);
+@import url(../blocks/play-card/__author/play-card__author.css);
+@import url(../blocks/play-card/__button/play-card__button.css);
+@import url(../blocks/play-card/__button/_type/play-card__button_type_download.css);
+@import url(../blocks/play-card/__button/_type/play-card__button_type_view.css);
+@import url(../blocks/play-card/__container/play-card__container.css);
+@import url(../blocks/play-card/__stamp/play-card__stamp.css);
+@import url(../blocks/play-card/__title/play-card__title.css);
+@import url(../blocks/play-card/_gap/play-card_gap.css);
+@import url(../blocks/play-card);
 /* блок persons */
 @import url(../blocks/persons/persons.css);
 @import url(../blocks/persons/__header/persons__header.css);

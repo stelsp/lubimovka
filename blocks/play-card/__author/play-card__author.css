@@ -1,0 +1,16 @@
+.play-card__author {
+  font: var(--headline-7);
+  margin: 24px 0 0;
+
+}
+
+.play-card__author:hover {
+  color: var(--color-snow-white);
+  background-color: var(--color-carbonic);
+}
+
+@media screen and (min-width: 1394px ){
+  .play-card__author {
+    margin: 16px 0 0;
+  }
+}

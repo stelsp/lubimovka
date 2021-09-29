@@ -1,0 +1,11 @@
+.play-card__stamp {
+  font: var(--body-text-small);
+  max-width: 150px;
+  margin: 8px 0 0;
+}
+
+@media screen and (min-width: 1394px ){
+  .play-card__stamp {
+    margin: 4px 0 0;
+  }
+}

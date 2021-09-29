@@ -9,7 +9,7 @@
 
   .buttons-nav_type_nav-arrow {
     top: calc(50% - 33px);
-    left: -98px;
+    right: -98px;
     width: 66px;
     height: 66px;
   }

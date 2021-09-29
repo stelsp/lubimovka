@@ -34,7 +34,12 @@
 }
 .button_style_arrow-right:hover::after {
   background-image: url(../../../images/icon/Union-white.png);
+  width: 21px;
+  height: 32px;
   z-index: 1000;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
 }
 
 @media screen and (min-width: 1440px) {

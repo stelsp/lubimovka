@@ -1,4 +1,29 @@
+@keyframes identifier {
+  0% {
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+  border-right: 0;
+  width: 24px;
+  height: 48px;
+  opacity: 1;
+
+  }
+ 50% {
+  border-radius:   50% 50% 0 0 / 100% 100% 0 0;
+  border-bottom: 0;
+  width: 48px;
+  height: 24px;
+  }
+100% {
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+  border-left: 0;
+  width: 24px;
+  height: 48px;
+  left: auto;
+  right: 8px;
+  }
+}
 .buttons-nav_type_nav-arrow {
+  box-sizing: border-box;
   background-image: url(../../../images/icon/nbt-back.png);
   background-position: center;
   top: calc(50% - 33px);
@@ -20,15 +45,40 @@
   z-index: 1;
 }
 
+.buttons-nav_type_nav-arrow:hover::before {
+  transition: background-image cubic-bezier(0.6, 0, 0.5, 1) 0.4s;
+  background-image: url(../../../images/icon/Union-white.png);
+  width: 21px;
+  height: 13px;
+  z-index: 1000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 1000;
+}
+
 .buttons-nav_type_nav-arrow::after {
   content: '';
   position: absolute;
   top: 9px;
   left: 8px;
-  background-image: url(../../../images/icon/Ellipse.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  border: 1px var(--color-carbonic) solid;
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+  border-right: 0;
   width: 24px;
   height: 48px;
   z-index: 1;
+
+}
+
+.buttons-nav_type_nav-arrow:hover::after {
+  border-radius: 50%;
+  width: 48px;
+  background-color: var(--color-carbonic);
+  transition: background-color cubic-bezier(0.6, 0, 0.5, 1) 0.4s;
+}
+
+.buttons-nav_type_nav-arrow:active::after {
+  box-shadow: 0 0 0 5px var(--color-carbonic);
+  transition: box-shadow cubic-bezier(0.6, 0, 0.5, 1) 0.4s;
 }

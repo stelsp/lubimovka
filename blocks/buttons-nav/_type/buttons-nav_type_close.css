@@ -1,8 +1,36 @@
 .buttons-nav_type_close {
+  width: 41px;
+  height: 41px;
+  top: 16px;
+  right: 16px;
+
+}
+.buttons-nav_type_close::before {
+  content: '';
+  position: absolute;
   background-image: url(../../../images/icon/bnt-close.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   top: 16px;
   right: 16px;
-  width: 41px;
-  height: 41px;
+  width: 9px;
+  height: 9px;
 }
+
+.buttons-nav_type_close:hover:before {
+  background-image: url(../../../images/icon/bnt-close-white.png);
+  transition: background-image cubic-bezier(0.6, 0, 0.5, 1) 0.4s;
+  z-index: 100;
+}
+
+.buttons-nav_type_close:hover{
+  background-color: var(--color-carbonic);
+  transition: background-color cubic-bezier(0.6, 0, 0.5, 1) 0.4s;
+}
+
+.buttons-nav_type_close:active{
+  box-shadow: 0 0 0 5px var(--color-carbonic);
+  transition: box-shadow cubic-bezier(0.6, 0, 0.5, 1) 0.4s;
+}
+

@@ -153,12 +153,12 @@
   font: var(--caption-text);
 }
 .performances__links-container {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 3;
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 414px) {
   .performances__links-container {
     flex-direction: row;
   }
@@ -173,7 +173,7 @@
 .performances__link:last-child {
   margin-right: 0;
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 414px) {
   .performances__link {
     margin: 0 27px 8px 0;
   }

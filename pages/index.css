@@ -50,6 +50,10 @@
 @import url(../blocks/persons/__name/persons__name.css);
 /* блок youtube-link */
 @import url(../blocks/youtube-link/youtube-link.css);
+@import url(../blocks/youtube-link/__description/youtube-link__description.css);
+@import url(../blocks/youtube-link/__heading/youtube-link__heading.css);
+@import url(../blocks/youtube-link/__button/youtube-link__button.css);
+@import url(../blocks/youtube-link/__container/youtube-link__container.css);
 /* блок cooperation */
 @import url(../blocks/cooperation/cooperation.css);
 /* всполывающее окно */

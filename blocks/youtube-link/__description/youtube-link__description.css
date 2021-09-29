@@ -1,7 +1,12 @@
 .youtube-link__description {
   font: var(--body-text);
-  margin: 16px 0 0 calc(87px - 25px);
+  margin: 16px 0 0;
   max-width: 305px;
+}
+
+@media screen and (min-width: 414px){
+  .youtube-link__description{
+    margin: 16px 0 0 calc(87px - 25px);}
 }
 
 @media screen and (min-width: 768px) {

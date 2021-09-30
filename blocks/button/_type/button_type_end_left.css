@@ -1,0 +1,18 @@
+.button_type_end_left {
+  width: 115px;
+  height: 32px;
+  padding-left: 10px;
+  border-right: 1px solid var(--color-carbonic);
+  border-bottom: 1px solid var(--color-carbonic);
+  font: var(--btn-title);
+}
+
+.button_type_end_left::after {
+  background-image: url(../../../images/arrow-left.svg);
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.button_type_end_left::before {
+  right: 0;
+}

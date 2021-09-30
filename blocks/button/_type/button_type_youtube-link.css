@@ -1,0 +1,18 @@
+.button_type_youtube-link {
+  width: 298px;
+  height: 56px;
+  border: 1px solid var(--color-carbonic);
+  padding-left: 20px;
+  font: var(--body-text-small);
+}
+
+.button_type_youtube-link::after {
+  background-image: url(../../../images/arrow-right.svg);
+  background-position-y: center;
+  background-position-x: calc(298px - 16px - 25px);
+
+}
+
+.button_type_youtube-link::before {
+  left: 0;
+}

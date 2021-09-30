@@ -1,0 +1,17 @@
+.button_type_plays-download {
+  width: 244px;
+  height: 56px;
+  border-top: 1px solid var(--color-carbonic);
+  padding-left: 16px;
+  font: var(--body-text-small);
+}
+
+.button_type_plays-download::after {
+  background-image: url(../../../images/arrow-down.svg);
+  background-position-y: center;
+  background-position-x: calc(244px - 16px - 25px);
+}
+
+.button_type_plays-download::before {
+  left: 0;
+}

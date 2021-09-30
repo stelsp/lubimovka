@@ -1,3 +1,9 @@
 .play-card {
   padding-bottom: 30px;
 }
+
+@media screen and (min-width: 1394px) {
+  .play-card:hover .play-card__button_type_download .play-card__button_type_view{
+    display: block;
+  }
+}

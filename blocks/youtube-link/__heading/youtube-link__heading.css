@@ -1,12 +1,10 @@
 .youtube-link__heading {
-  font: var(--headline-6);
   margin: 0;
   max-width: 300px;
 }
 
 @media screen and (min-width: 768px) {
   .youtube-link__heading {
-    font: var(--headline-4);
     max-width: 410px;
     margin: 0;
   }

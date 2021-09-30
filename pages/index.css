@@ -1,11 +1,13 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/body/body.css);
-/* кнопка назад */
+/* блок button */
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/_style/button_style_arrow-right.css);
-@import url(../blocks/button/_style/button_style_arrow-left.css);
-@import url(../blocks/button/__image/button__image.css);
+@import url(../blocks/button/_type/button_type_end_left.css);
+@import url(../blocks/button/_type/button_type_plays-download.css);
+@import url(../blocks/button/_type/button_type_plays-view.css);
+@import url(../blocks/button/_type/button_type_start_right.css);
+@import url(../blocks/button/_type/button_type_youtube-link.css);
 /* блок с заголовками для страниц */
 @import url(../blocks/heading-for-pages/heading-for-pages.css);
 /* заголовок блоков */
@@ -45,14 +47,12 @@
 /* блок play-card */
 @import url(../blocks/play-card/play-card.css);
 @import url(../blocks/play-card/__author/play-card__author.css);
-@import url(../blocks/play-card/__button/play-card__button.css);
 @import url(../blocks/play-card/__button/_type/play-card__button_type_download.css);
 @import url(../blocks/play-card/__button/_type/play-card__button_type_view.css);
 @import url(../blocks/play-card/__container/play-card__container.css);
 @import url(../blocks/play-card/__stamp/play-card__stamp.css);
 @import url(../blocks/play-card/__title/play-card__title.css);
 @import url(../blocks/play-card/_gap/play-card_gap.css);
-@import url(../blocks/play-card);
 /* блок persons */
 @import url(../blocks/persons/persons.css);
 @import url(../blocks/persons/__header/persons__header.css);

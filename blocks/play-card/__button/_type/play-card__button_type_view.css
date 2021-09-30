@@ -1,3 +1,11 @@
 .play-card__button_type_view {
-  bottom: 56px;
+  position: absolute;
+  bottom: 55px;
+}
+
+@media screen and (min-width: 1394px) {
+  .play-card__button_type_view {
+    display: none;
+    width: 240px;
+  }
 }

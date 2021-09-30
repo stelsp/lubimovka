@@ -1,9 +1,17 @@
 .youtube-link__container {
-  margin: auto;
+  all: unset;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1023px) {
   .youtube-link__container {
-    margin: auto 0;
+    margin-bottom: 58px;
+    margin-left: 57px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .youtube-link__container {
+    margin-bottom: 58px;
+    margin-left: 335px;
   }
 }

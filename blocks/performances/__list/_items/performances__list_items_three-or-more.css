@@ -1,0 +1,8 @@
+@media screen and (min-width: 600px) {
+  .performances__list_items_three-or-more {
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+}

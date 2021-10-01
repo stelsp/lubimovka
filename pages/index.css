@@ -14,6 +14,7 @@
 @import url(../blocks/heading-for-blocks/heading-for-blocks.css);
 /* блок интро */
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__link/intro__link.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__image/intro__image.css);
 @import url(../blocks/intro/__button/intro__button.css);
@@ -41,6 +42,25 @@
 @import url(../blocks/gallery/__title/gallery__title.css);
 /* блок performances */
 @import url(../blocks/performances/performances.css);
+@import url(../blocks/performances/_items/performances_items_one.css);
+@import url(../blocks/performances/__title/performances__title.css);
+@import url(../blocks/performances/__title/_items/performances__title_items_one.css);
+@import url(../blocks/performances/__list/performances__list.css);
+@import url(../blocks/performances/__list/_items/performances__list_items_one.css);
+@import url(../blocks/performances/__list/_items/performances__list_items_two.css);
+@import url(../blocks/performances/__list/_items/performances__list_items_three-or-more.css);
+@import url(../blocks/performances/__item/performances__item.css);
+@import url(../blocks/performances/__item/_items/performances__item_items_two.css);
+@import url(../blocks/performances/__item/_items/performances__item_items_three-or-more.css);
+@import url(../blocks/performances/__image/performances__image.css);
+@import url(../blocks/performances/__date-container/performances__date-container.css);
+@import url(../blocks/performances/__date/performances__date.css);
+@import url(../blocks/performances/__time/performances__time.css);
+@import url(../blocks/performances/__card-title/performances__card-title.css);
+@import url(../blocks/performances/__authors/performances__authors.css);
+@import url(../blocks/performances/__quote/performances__quote.css);
+@import url(../blocks/performances/__links-container/performances__links-container.css);
+@import url(../blocks/performances/__link/performances__link.css);
 /* блок plays */
 @import url(../blocks/plays/plays.css);
 @import url(../blocks/plays/__container/plays__container.css);
@@ -70,6 +90,10 @@
 @import url(../blocks/youtube-link/__container/youtube-link__container.css);
 /* блок cooperation */
 @import url(../blocks/cooperation/cooperation.css);
+@import url(../blocks/cooperation/__title/cooperation__title.css);
+@import url(../blocks/cooperation/__asterisk/cooperation__asterisk.css);
+@import url(../blocks/cooperation/__text/cooperation__text.css);
+@import url(../blocks/cooperation/__link/cooperation__link.css);
 /* всполывающее окно */
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__container/popup__container.css);

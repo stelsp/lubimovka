@@ -1,7 +1,6 @@
 .intro__title {
   margin: 54px 0 0 24px;
   max-width: 280px;
-  white-space: nowrap;
 }
 
 @media screen and (max-width: 350px) {
@@ -16,6 +15,7 @@
 
   .intro__title {
     max-width: 323px;
+    white-space: nowrap;
   }
 
 }
@@ -37,3 +37,6 @@
   }
 
 }
+
+
+

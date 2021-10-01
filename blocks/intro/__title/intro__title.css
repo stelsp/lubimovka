@@ -3,14 +3,6 @@
   max-width: 280px;
 }
 
-@media screen and (max-width: 350px) {
-
-  .intro__title {
-    margin-left: 0;
-  }
-
-}
-
 @media screen and (min-width: 413px) {
 
   .intro__title {

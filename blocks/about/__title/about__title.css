@@ -1,3 +1,5 @@
 .about__title {
-  margin: 0 0 17px;
+  margin: 0 0 20px;
+  font: var(--headline-4);
 }
+

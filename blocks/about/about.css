@@ -1,6 +1,6 @@
 .about {
   background-color: var(--color-accent);
-  padding: 56px 24px 72px;
+  padding: 53px 24px 72px;
 }
 
 @media screen and (min-width: 650px){

@@ -4,9 +4,14 @@
 
 }
 
+@media screen and (min-width: 767px ){
+  .plays__title {
+    max-width: 360px;
+  }
+}
+
 @media screen and (min-width: 1000px ){
   .plays__title {
     margin: 0 0 54px 362px;
-    max-width: 360px;
   }
 }

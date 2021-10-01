@@ -25,7 +25,6 @@
   background: var(--color-main);
   font-family: "FormularLight", sans-serif;
   letter-spacing: var(--letter-spacing);
-
   max-width: 1440px;
   margin: 0 auto;
 }

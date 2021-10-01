@@ -1,4 +1,10 @@
 .persons__image{
   height: 265px;
-  width: 213px;
+  width: 214px;
+}
+
+@media screen and (min-width: 995px) {
+  .persons__image {
+  width: 210px;
+  }
 }

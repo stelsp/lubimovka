@@ -1,0 +1,11 @@
+.intro__button {
+  margin-left: 87px;
+}
+
+@media screen and (min-width: 620px) {
+
+  .intro__button {
+  margin-left: 34px;
+  }
+
+}

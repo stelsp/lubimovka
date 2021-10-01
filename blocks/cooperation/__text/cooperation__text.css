@@ -1,0 +1,27 @@
+.cooperation__text {
+  margin: 0 0 0 16px;
+  padding: 0;
+
+  padding-top: 16px;
+  padding-bottom: 7px;
+
+  font: var(--headline-7);
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+@media screen and (max-width: 370px) {
+  .cooperation__text {
+    max-width: 270px;
+    margin-left: 40px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .cooperation__text {
+    padding-left: 43px;
+    padding-top: 33px;
+    padding-bottom: 0;
+  }
+}

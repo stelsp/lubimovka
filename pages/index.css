@@ -70,6 +70,10 @@
 @import url(../blocks/youtube-link/__container/youtube-link__container.css);
 /* блок cooperation */
 @import url(../blocks/cooperation/cooperation.css);
+@import url(../blocks/cooperation/__asterisk/cooperation__asterisk.css);
+@import url(../blocks/cooperation/__link/cooperation__link.css);
+@import url(../blocks/cooperation/__text/cooperation__text.css);
+@import url(../blocks/cooperation/__title/cooperation__title.css);
 /* всполывающее окно */
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__container/popup__container.css);

@@ -4,14 +4,14 @@
   position: relative;
   text-decoration: none;
   color: var(--color-carbonic);
-  transition: color cubic-bezier(0.6, 0, 0.5, 1) 0.4s;
-  transition: outline 100ms cubic-bezier(0.6, 0, 0.5, 1);
+  transition: color 0.4s cubic-bezier(0.6, 0, 0.5, 1);
   text-transform: uppercase;
   box-sizing: border-box;
   z-index: 5;
 }
 
 .button:active {
+  transition: outline 100ms cubic-bezier(0.6, 0, 0.5, 1);
   outline: 5px var(--color-carbonic) solid;
 }
 

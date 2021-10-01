@@ -4,7 +4,7 @@
   color: var(--color-carbonic);
   font: var(--headline-7);
   margin: 24px 0 0;
-  width: fit-content;
+  width: 215px;
   position: relative;
   transition: all cubic-bezier(0.6, 0, 0.5, 1) 150ms;
 }
@@ -14,18 +14,21 @@
   background-color: var(--color-carbonic);
 }
 
-.play-card__author:hover::after {
-  content: '';
-  width: 100%;
-  height: 2px;
-  background-color: var(--color-main);
-  position: absolute;
-  left: 0;
-  z-index: 10;
-}
+
 
 @media screen and (min-width: 1394px ){
   .play-card__author {
     margin: 16px 0 0;
+    width: 110px;
+  }
+
+  .play-card__author:hover::after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: var(--color-main);
+    position: absolute;
+    left: 0;
+    z-index: 10;
   }
 }

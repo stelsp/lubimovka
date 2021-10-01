@@ -17,6 +17,7 @@
 @import url(../blocks/intro/__link/intro__link.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__button/intro__button.css);
 @import url(../blocks/intro/__text-about/intro__text-about.css);
 /* блок about */
 @import url(../blocks/about/about.css);

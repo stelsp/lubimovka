@@ -1,4 +1,4 @@
-.button_type_start_right {
+.button_type_start-right {
     width: 154px;
     height: 32px;
     padding-left: 29px;
@@ -7,11 +7,11 @@
     font: var(--btn-title);
 }
 
-.button_type_start_right::after {
+.button_type_start-right::after {
   background-image: url(../../../images/arrow-right.svg);
   background-position-y: center;
 }
 
-.button_type_start_right::before {
+.button_type_start-right::before {
   left: 0;
 }

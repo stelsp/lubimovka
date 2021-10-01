@@ -1,0 +1,6 @@
+@media screen and (min-width: 1050px) {
+  .performances__item_items_two {
+    border-bottom: none;
+    border-right: 1px solid var(--color-carbonic);
+  }
+}

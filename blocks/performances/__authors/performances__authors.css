@@ -1,0 +1,12 @@
+.performances__authors {
+  margin: 0 0 8px 0;
+  padding: 0;
+  max-width: 255px;
+  font: var(--body-text-small);
+}
+
+@media screen and (min-width: 600px) {
+  .performances__authors {
+    margin: 0 0 20px 30px;
+  }
+}

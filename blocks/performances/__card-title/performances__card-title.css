@@ -1,0 +1,13 @@
+.performances__card-title {
+  margin: 0 0 8px 0;
+  padding: 0;
+  font: var(--headline-6);
+  letter-spacing: var(--letter-spacing);
+}
+
+@media screen and (min-width: 600px) {
+  .performances__card-title {
+    font: var(--headline-5);
+    margin-bottom: 16px;
+  }
+}

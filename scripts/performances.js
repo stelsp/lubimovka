@@ -12,6 +12,7 @@ if (perfList.children.length === 1) {
 
 if (perfList.children.length === 2) {
   perfList.classList.add('performances__list_items_two');
+  perfItems.forEach(item => item.classList.add('performances__item_items_two'));
 }
 
 if (perfList.children.length >= 3) {

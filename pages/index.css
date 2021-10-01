@@ -40,6 +40,25 @@
 @import url(../blocks/gallery/__title/gallery__title.css);
 /* блок performances */
 @import url(../blocks/performances/performances.css);
+@import url(../blocks/performances/_items/performances_items_one.css);
+@import url(../blocks/performances/__title/performances__title.css);
+@import url(../blocks/performances/__title/_items/performances__title_items_one.css);
+@import url(../blocks/performances/__list/performances__list.css);
+@import url(../blocks/performances/__list/_items/performances__list_items_one.css);
+@import url(../blocks/performances/__list/_items/performances__list_items_two.css);
+@import url(../blocks/performances/__list/_items/performances__list_items_three-or-more.css);
+@import url(../blocks/performances/__item/performances__item.css);
+@import url(../blocks/performances/__item/_items/performances__item_items_two.css);
+@import url(../blocks/performances/__item/_items/performances__item_items_three-or-more.css);
+@import url(../blocks/performances/__image/performances__image.css);
+@import url(../blocks/performances/__date-container/performances__date-container.css);
+@import url(../blocks/performances/__date/performances__date.css);
+@import url(../blocks/performances/__time/performances__time.css);
+@import url(../blocks/performances/__card-title/performances__card-title.css);
+@import url(../blocks/performances/__authors/performances__authors.css);
+@import url(../blocks/performances/__quote/performances__quote.css);
+@import url(../blocks/performances/__links-container/performances__links-container.css);
+@import url(../blocks/performances/__link/performances__link.css);
 /* блок plays */
 @import url(../blocks/plays/plays.css);
 @import url(../blocks/plays/__container/plays__container.css);

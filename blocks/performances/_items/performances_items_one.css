@@ -1,0 +1,6 @@
+@media screen and (min-width: 1050px) {
+  .performances_items_one {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0;
+  }
+}

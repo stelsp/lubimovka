@@ -25,7 +25,7 @@
   display: grid;
   row-gap: 30px;
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 600px) {
   .performances__title_items_one {
     margin-left: 210px;
   }
@@ -43,6 +43,7 @@
     justify-content: space-around;
   }
   .performances__list_items_three-or-more {
+    margin: 0;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -61,8 +62,9 @@
 .performances__item:last-child {
   border-right: none;
   border-bottom: none;
+  padding-bottom: 0;
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 600px) {
   .performances__item {
     padding: 0;
     margin-left: 60px;
@@ -80,7 +82,7 @@
 .performances__image {
   width: 92px;
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 600px) {
   .performances__image {
     width: 120px;
   }
@@ -96,7 +98,7 @@
     flex-direction: row;
   }
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 600px) {
   .performances__date-container {
     margin-bottom: 4px;
   }
@@ -112,7 +114,7 @@
     margin-right: 46px;
   }
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 600px) {
   .performances__date {
     margin-right: 42px;
   }
@@ -129,7 +131,7 @@
   font: var(--headline-6);
   letter-spacing: var(--letter-spacing);
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 600px) {
   .performances__card-title {
     font: var(--headline-5);
     margin-bottom: 16px;
@@ -141,7 +143,7 @@
   max-width: 255px;
   font: var(--body-text-small);
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 600px) {
   .performances__authors {
     margin: 0 0 20px 30px;
   }
@@ -163,7 +165,7 @@
     flex-direction: row;
   }
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 600px) {
   .performances__links-container {
     grid-column-start: 2;
     flex-direction: column;
@@ -178,7 +180,7 @@
     margin: 0 27px 8px 0;
   }
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 600px) {
   .performances__link {
     margin: 0 0 16px 0;
   }

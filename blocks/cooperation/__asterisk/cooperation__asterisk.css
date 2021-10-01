@@ -3,13 +3,12 @@
   position: absolute;
   width: 25px;
 
-  top: 40px;
+  top: 50px;
   left: 10px;
 }
 
 @media screen and (min-width: 650px) {
   .cooperation__asterisk {
-    top: 50px;
     left: -10px;
   }
 }
@@ -18,5 +17,5 @@
   .cooperation__asterisk {
     top: 74px;
     left: 665px;
-    }
+  }
 }

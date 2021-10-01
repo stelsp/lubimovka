@@ -1,6 +1,6 @@
 @media screen and (min-width: 1050px) {
   .performances__list_items_one {
-    margin: 122px 0 0 0;
+    margin: 183px 0 0 0;
     grid-template-columns: 1fr;
     row-gap: 0;
   }

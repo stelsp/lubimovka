@@ -1,13 +1,13 @@
 .intro__title {
   margin: 58px 0 0 24px;
   max-width: 280px;
-  white-space: nowrap;
 }
 
 @media screen and (min-width: 413px) {
 
   .intro__title {
     max-width: 323px;
+    white-space: nowrap;
   }
 
 }
@@ -29,3 +29,6 @@
   }
 
 }
+
+
+

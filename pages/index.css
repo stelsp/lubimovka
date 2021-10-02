@@ -57,6 +57,7 @@
 @import url(../blocks/performances/__time/performances__time.css);
 @import url(../blocks/performances/__card-title/performances__card-title.css);
 @import url(../blocks/performances/__authors/performances__authors.css);
+@import url(../blocks/performances/__authors/_items/performances__authors_items_three-ore-more.css);
 @import url(../blocks/performances/__quote/performances__quote.css);
 @import url(../blocks/performances/__links-container/performances__links-container.css);
 @import url(../blocks/performances/__link/performances__link.css);

@@ -34,6 +34,7 @@ btnNext.addEventListener('click', () => {
     }
 });
 popupImage.src = newItem;
+
 })
 
 btnPrev.addEventListener('click', () => {

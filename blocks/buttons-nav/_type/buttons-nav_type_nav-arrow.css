@@ -57,7 +57,7 @@
   transition: box-shadow cubic-bezier(0.6, 0, 0.5, 1) 0.1s;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
 
   .buttons-nav_type_nav-arrow {
     top: calc(50% - 33px);

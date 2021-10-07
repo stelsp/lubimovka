@@ -1,0 +1,6 @@
+@media screen and (min-width: 1050px) {
+  .performances__list_items_two {
+    display: flex;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,9 @@
+.performances__image {
+  width: 92px;
+}
+
+@media screen and (min-width: 600px) {
+  .performances__image {
+    width: 120px;
+  }
+}

@@ -1,0 +1,10 @@
+.about {
+  background-color: var(--color-accent);
+  padding: 53px 24px 72px;
+}
+
+@media screen and (min-width: 650px){
+  .about {
+    padding: 79px 25% 120px;
+  }
+}

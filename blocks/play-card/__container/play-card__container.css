@@ -1,0 +1,17 @@
+.play-card__container {
+  height: 342px;
+  width: 244px;
+  background-color: var(--color-accent);
+  position: relative;
+}
+
+@media screen and (min-width: 1394px ){
+  .play-card__container:hover .play-card__button {
+    display: flex;
+  }
+
+  .play-card__container {
+    height: 300px;
+    width: 240px;
+  }
+}

@@ -1,0 +1,12 @@
+.videos__title {
+  margin: 100px 0 32px;
+  padding: 0 24px;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 765px) {
+  .videos__title {
+    margin: 98px 0 45px;
+    padding-left: 25%;
+  }
+}

@@ -1,0 +1,12 @@
+.plays__title {
+  margin: 0 0 32px 24px;
+  max-width: 250px;
+
+}
+
+@media screen and (min-width: 1000px ){
+  .plays__title {
+    margin: 0 0 54px 362px;
+    max-width: 360px;
+  }
+}

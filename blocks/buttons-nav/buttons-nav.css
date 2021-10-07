@@ -1,0 +1,12 @@
+.buttons-nav {
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-sizing: border-box;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+

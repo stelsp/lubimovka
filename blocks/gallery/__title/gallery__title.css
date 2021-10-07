@@ -1,0 +1,41 @@
+.gallery__title {
+  max-width: 290px;
+  margin: 0 auto 22px;
+  padding-left: 24px;
+}
+
+@media screen and (min-width: 414px) {
+
+  .gallery__title {
+    max-width: 369px;
+    padding: 0;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .gallery__title {
+    max-width: 450px;
+    margin-bottom: 28px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  .gallery__title {
+    max-width: 450px;
+    margin: 0 0 36px 362px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+  .gallery__title {
+    max-width: 568px;
+    margin-bottom: 42px;
+  }
+
+}

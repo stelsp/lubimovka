@@ -1,0 +1,26 @@
+.cooperation {
+  position: relative;
+  padding: 76px 0 100px 25px;
+  margin: 0 auto;
+
+  max-width: 335px;
+}
+
+@media screen and (min-width: 650px) {
+  .cooperation {
+    max-width: 516px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cooperation {
+    margin: 0;
+    padding: 100px 0 169px 692px;
+  }
+}
+
+
+
+
+
+

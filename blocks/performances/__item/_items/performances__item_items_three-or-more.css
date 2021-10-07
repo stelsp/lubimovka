@@ -1,0 +1,7 @@
+@media screen and (min-width: 600px) {
+  .performances__item_items_three-or-more {
+    margin-left: 30px;
+    border-bottom: none;
+    border-right: 1px solid var(--color-carbonic);
+  }
+}

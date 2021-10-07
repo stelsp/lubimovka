@@ -1,0 +1,6 @@
+.performances__time {
+  margin: 0;
+  padding: 0;
+  font: var(--body-text);
+  letter-spacing: var(--letter-spacing);
+}

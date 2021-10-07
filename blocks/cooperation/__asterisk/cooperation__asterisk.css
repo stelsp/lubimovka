@@ -1,0 +1,21 @@
+.cooperation__asterisk {
+  display: block;
+  position: absolute;
+  width: 25px;
+
+  top: 50px;
+  left: 10px;
+}
+
+@media screen and (min-width: 370px) {
+  .cooperation__asterisk {
+    left: -14px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cooperation__asterisk {
+    top: 74px;
+    left: 665px;
+  }
+}

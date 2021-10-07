@@ -1,0 +1,13 @@
+.performances__link {
+  margin: 0 27px 8px 0;
+}
+
+.performances__link:last-child {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .performances__link {
+    margin: 0 0 16px 0;
+  }
+}

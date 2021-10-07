@@ -1,0 +1,17 @@
+.button_type_start-right {
+    width: 154px;
+    height: 32px;
+    padding-left: 29px;
+    border-left: 1px solid var(--color-carbonic);
+    border-bottom: 1px solid var(--color-carbonic);
+    font: var(--btn-title);
+}
+
+.button_type_start-right::after {
+  background-image: url(../../../images/arrow-right.svg);
+  background-position-y: center;
+}
+
+.button_type_start-right::before {
+  left: 0;
+}

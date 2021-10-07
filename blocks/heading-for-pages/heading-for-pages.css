@@ -1,0 +1,19 @@
+.heading-for-pages {
+  font: var(--headline-4);
+}
+
+@media screen and (min-width: 768px) {
+
+  .heading-for-pages {
+    font: var(--headline-2);
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+  .heading-for-pages {
+    font: var(--headline-1);
+  }
+
+}

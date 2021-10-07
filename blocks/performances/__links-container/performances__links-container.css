@@ -1,0 +1,19 @@
+.performances__links-container {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 414px) {
+  .performances__links-container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .performances__links-container {
+    grid-column-start: 2;
+    flex-direction: column;
+  }
+}

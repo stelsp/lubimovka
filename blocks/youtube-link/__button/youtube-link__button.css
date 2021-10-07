@@ -1,0 +1,35 @@
+.youtube-link__button {
+  margin: 19px 0  0 62px;
+}
+
+@media screen and (max-width: 380px) {
+  .youtube-link__button {
+    width: 266px;
+    margin-left: 0;
+  }
+
+  .youtube-link__button::after {
+    background-position-x: calc(266px - 16px - 25px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .youtube-link__button {
+    margin-left: 0;
+    margin-right: 53px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .youtube-link__button {
+    margin-left: 90px;
+    margin-top: 35px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .youtube-link__button {
+    margin-left: 100px;
+    margin-top: 35px;
+  }
+}

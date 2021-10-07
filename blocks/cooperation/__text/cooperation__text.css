@@ -1,0 +1,17 @@
+.cooperation__text {
+  margin: 0;
+  padding: 0;
+
+  padding-top: 16px;
+
+  font: var(--headline-7);
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+@media screen and (min-width: 1440px) {
+  .cooperation__text {
+    padding-left: 58px;
+    padding-top: 33px;
+  }
+}

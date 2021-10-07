@@ -1,0 +1,11 @@
+.videos__iframe_size_small {
+  width: 299px;
+  height: 168px;
+}
+
+@media screen and (min-width: 765px) {
+  .videos__iframe_size_small {
+    width: 420px;
+    height: 236px;
+  }
+}

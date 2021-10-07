@@ -1,0 +1,34 @@
+.play-card__author {
+  display: block;
+  text-decoration: none;
+  color: var(--color-carbonic);
+  font: var(--headline-7);
+  margin: 24px 0 0;
+  width: 215px;
+  position: relative;
+  transition: all cubic-bezier(0.6, 0, 0.5, 1) 150ms;
+}
+
+.play-card__author:hover {
+  color: var(--color-snow-white);
+  background-color: var(--color-carbonic);
+}
+
+
+
+@media screen and (min-width: 1394px ){
+  .play-card__author {
+    margin: 16px 0 0;
+    width: 110px;
+  }
+
+  .play-card__author:hover::after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: var(--color-main);
+    position: absolute;
+    left: 0;
+    z-index: 10;
+  }
+}

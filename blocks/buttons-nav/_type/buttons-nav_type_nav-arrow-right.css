@@ -1,0 +1,17 @@
+.buttons-nav_type_nav-arrow-right {
+  transform: scaleX(-1);
+  left: inherit;
+  right: 0px;
+  top: calc(50% - 33px);
+}
+
+@media screen and (min-width: 750px) {
+
+  .buttons-nav_type_nav-arrow {
+    top: calc(50% - 33px);
+    right: -98px;
+    width: 66px;
+    height: 66px;
+  }
+
+}

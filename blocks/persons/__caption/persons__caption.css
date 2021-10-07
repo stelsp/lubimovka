@@ -1,0 +1,7 @@
+.persons__caption{
+  font: var(--body-text-small);
+  letter-spacing: var(--letter-spacing);
+  width: 180px;
+  margin: 8px 0 0 35px;
+  padding-bottom: 30px;
+}

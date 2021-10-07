@@ -1,0 +1,108 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/body/body.css);
+/* блок button */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_end-left.css);
+@import url(../blocks/button/_type/button_type_plays-download.css);
+@import url(../blocks/button/_type/button_type_plays-view.css);
+@import url(../blocks/button/_type/button_type_start-right.css);
+@import url(../blocks/button/_type/button_type_youtube-link.css);
+/* блок с заголовками для страниц */
+@import url(../blocks/heading-for-pages/heading-for-pages.css);
+/* заголовок блоков */
+@import url(../blocks/heading-for-blocks/heading-for-blocks.css);
+/* блок интро */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__text-about/intro__text-about.css);
+/* блок about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__text/about__text.css);
+/* блок с видео */
+@import url(../blocks/videos/videos.css);
+@import url(../blocks/videos/__iframe/videos__iframe.css);
+@import url(../blocks/videos/__iframe/_block/videos__iframe_block_one-video.css);
+@import url(../blocks/videos/__iframe/_size/videos__iframe_size_large.css);
+@import url(../blocks/videos/__iframe/_size/videos__iframe_size_small.css);
+@import url(../blocks/videos/__iframes/videos__iframes.css);
+@import url(../blocks/videos/__iframes/_block/videos__iframes_block_two-video.css);
+@import url(../blocks/videos/__iframes/_block/videos__iframes_block_three-video.css);
+@import url(../blocks/videos/__text/videos__text.css);
+@import url(../blocks/videos/__title/videos__title.css);
+@import url(../blocks/videos/__title/_block/videos__title_block_one-video.css);
+/* галерея */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__items/gallery__items.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+@import url(../blocks/gallery/__title/gallery__title.css);
+/* блок performances */
+@import url(../blocks/performances/performances.css);
+@import url(../blocks/performances/_items/performances_items_one.css);
+@import url(../blocks/performances/__title/performances__title.css);
+@import url(../blocks/performances/__title/_items/performances__title_items_one.css);
+@import url(../blocks/performances/__list/performances__list.css);
+@import url(../blocks/performances/__list/_items/performances__list_items_one.css);
+@import url(../blocks/performances/__list/_items/performances__list_items_two.css);
+@import url(../blocks/performances/__list/_items/performances__list_items_three-or-more.css);
+@import url(../blocks/performances/__item/performances__item.css);
+@import url(../blocks/performances/__item/_items/performances__item_items_two.css);
+@import url(../blocks/performances/__item/_items/performances__item_items_three-or-more.css);
+@import url(../blocks/performances/__image/performances__image.css);
+@import url(../blocks/performances/__date-container/performances__date-container.css);
+@import url(../blocks/performances/__date/performances__date.css);
+@import url(../blocks/performances/__time/performances__time.css);
+@import url(../blocks/performances/__card-title/performances__card-title.css);
+@import url(../blocks/performances/__authors/performances__authors.css);
+@import url(../blocks/performances/__authors/_items/performances__authors_items_three-ore-more.css);
+@import url(../blocks/performances/__quote/performances__quote.css);
+@import url(../blocks/performances/__links-container/performances__links-container.css);
+@import url(../blocks/performances/__link/performances__link.css);
+/* блок plays */
+@import url(../blocks/plays/plays.css);
+@import url(../blocks/plays/__container/plays__container.css);
+@import url(../blocks/plays/__title/plays__title.css);
+/* блок play-card */
+@import url(../blocks/play-card/play-card.css);
+@import url(../blocks/play-card/__author/play-card__author.css);
+@import url(../blocks/play-card/__button/_type/play-card__button_type_download.css);
+@import url(../blocks/play-card/__button/_type/play-card__button_type_view.css);
+@import url(../blocks/play-card/__container/play-card__container.css);
+@import url(../blocks/play-card/__stamp/play-card__stamp.css);
+@import url(../blocks/play-card/__title/play-card__title.css);
+@import url(../blocks/play-card/_gap/play-card_gap.css);
+/* блок persons */
+@import url(../blocks/persons/persons.css);
+@import url(../blocks/persons/__header/persons__header.css);
+@import url(../blocks/persons/__caption/persons__caption.css);
+@import url(../blocks/persons/__image/persons__image.css);
+@import url(../blocks/persons/__item/persons__item.css);
+@import url(../blocks/persons/__list/persons__list.css);
+@import url(../blocks/persons/__name/persons__name.css);
+/* блок youtube-link */
+@import url(../blocks/youtube-link/youtube-link.css);
+@import url(../blocks/youtube-link/__description/youtube-link__description.css);
+@import url(../blocks/youtube-link/__heading/youtube-link__heading.css);
+@import url(../blocks/youtube-link/__button/youtube-link__button.css);
+@import url(../blocks/youtube-link/__container/youtube-link__container.css);
+/* блок cooperation */
+@import url(../blocks/cooperation/cooperation.css);
+@import url(../blocks/cooperation/__title/cooperation__title.css);
+@import url(../blocks/cooperation/__asterisk/cooperation__asterisk.css);
+@import url(../blocks/cooperation/__text/cooperation__text.css);
+@import url(../blocks/cooperation/__link/cooperation__link.css);
+/* всполывающее окно */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__photo/popup__photo.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+/* кнопки навигации */
+@import url(../blocks/buttons-nav/buttons-nav.css);
+@import url(../blocks/buttons-nav/_type/buttons-nav_type_close.css);
+@import url(../blocks/buttons-nav/_type/buttons-nav_type_nav-arrow.css);
+@import url(../blocks/buttons-nav/_type/buttons-nav_type_nav-arrow-right.css);
+
+

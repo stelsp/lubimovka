@@ -1,0 +1,18 @@
+.intro__image {
+  max-width: 100%;
+  min-width: 320px;
+  min-height: 414px;
+  object-fit: cover;
+  object-position: left;
+  margin: 41px 0 0 0;
+}
+
+@media screen and (min-width: 620px) {
+
+  .intro__image {
+    min-height: 100%;
+    margin: 0;
+
+  }
+
+}
